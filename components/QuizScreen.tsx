@@ -123,43 +123,42 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({ topic, questions, onQuiz
     );
   }
 
-  return (
-    <div className="max-w-3xl mx-auto">
-      <Card>
-        <div className="mb-6">
-             <button onClick={goHome} className="flex items-center text-primary font-semibold mb-6 hover:underline">
-                <ArrowLeftIcon className="w-5 h-5 mr-2" />
-                Quay về
-            </button>
-          <div className="flex justify-between items-center mb-2">
-            <h2 className="text-xl font-bold text-dark">{topic.name}</h2>
-            <span className="text-gray-600 font-semibold">{currentQuestionIndex + 1} / {questions.length}</span>
-          </div>
-          <div className="w-full bg-gray-200 rounded-full h-2.5">
-            <div className="bg-primary h-2.5 rounded-full" style={{ width: `${progressPercentage}%` }}></div>
-          </div>
+return (
+  <div className="max-w-3xl mx-auto">
+    <Card>
+      <div className="mb-6">
+        <button onClick={goHome} className="flex items-center text-primary font-semibold mb-6 hover:underline">
+          <ArrowLeftIcon className="w-5 h-5 mr-2" />
+          Quay về
+        </button>
+        <div className="flex justify-between items-center mb-2">
+          <h2 className="text-xl font-bold text-dark">{topic.name}</h2>
+          <span className="text-gray-600 font-semibold">{currentQuestionIndex + 1} / {questions.length}</span>
         </div>
+        <div className="w-full bg-gray-200 rounded-full h-2.5">
+          <div className="bg-primary h-2.5 rounded-full" style={{ width: `${progressPercentage}%` }}></div>
+        </div>
+      </div>
 
-        <div>
-          <p className="text-lg font-semibold mb-4 text-dark">{currentQuestionIndex + 1}. {currentQuestion.stem}</p>
-          <div>
-          {currentQuestion.answerIndices.length > 1 && <p className="text-sm text-green-600 mt-2">Câu hỏi này có nhiều đáp án.</p>}
+      <div>
+        <p className="text-lg font-semibold mb-4 text-dark">{currentQuestionIndex + 1}. {currentQuestion.stem}</p>
+        {currentQuestion.answerIndices.length > 1 && (
+          <p className="text-sm text-green-600 mt-2">Câu hỏi này có nhiều đáp án.</p>
+        )}
+        <div className="space-y-3">
+          {currentQuestion.options.map((option, index) => (
+            <button
+              key={index}
+              onClick={() => handleOptionToggle(index)}
+              disabled={showResult}
+              className={`w-full text-left p-4 border-2 rounded-lg transition-all duration-200
+                ${selectedIndices.includes(index) ? 'border-primary bg-primary/10' : 'border-gray-300 hover:border-primary/50'}
+                ${showResult ? 'cursor-not-allowed' : 'cursor-pointer'}`}
+            >
+              <span className="font-semibold">{String.fromCharCode(65 + index)}.</span> {option}
+            </button>
+          ))}
         </div>
-          <div className="space-y-3">
-            {currentQuestion.options.map((option, index) => (
-              <button
-                key={index}
-                onClick={() => handleOptionToggle(index)}
-                disabled={showResult}
-                className={`w-full text-left p-4 border-2 rounded-lg transition-all duration-200
-                  ${selectedIndices.includes(index) ? 'border-primary bg-primary/10' : 'border-gray-300 hover:border-primary/50'}
-                  ${showResult ? 'cursor-not-allowed' : 'cursor-pointer'}
-                `}
-              >
-                <span className="font-semibold">{String.fromCharCode(65 + index)}.</span> {option}
-              </button>
-            ))}
-          
 
         {showResult && attempts[currentQuestionIndex] && (
           <ResultsScreen
@@ -170,7 +169,7 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({ topic, questions, onQuiz
           />
         )}
 
-               <div className="mt-8 flex justify-end">
+        <div className="mt-8 flex justify-end">
           {!showResult ? (
             <button
               onClick={handleSubmit}
@@ -188,7 +187,8 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({ topic, questions, onQuiz
             </button>
           )}
         </div>
-      </Card> {/* ✅ Đóng thẻ Card đúng vị trí */}
-    </div>   {/* ✅ Đóng div tổng */}
-  );
+      </div>
+    </Card> {/* ✅ Đóng Card đúng vị trí */}
+  </div>   {/* ✅ Đóng div tổng */}
+);
 };
