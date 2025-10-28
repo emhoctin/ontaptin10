@@ -32,13 +32,13 @@ const App: React.FC = () => {
 
     // Initialize Gemini AI client
     useEffect(() => {
-        // Assume API_KEY is set in the environment as per guidelines
-        if (process.env.API_KEY) {
-            const genAI = new GoogleGenAI({ apiKey: process.env.API_KEY });
+        // Fix: Use `process.env.API_KEY` as per coding guidelines, which also resolves the TypeScript error on line 35.
+        const apiKey = process.env.API_KEY;
+        if (apiKey) {
+            const genAI = new GoogleGenAI({ apiKey });
             setAi(genAI);
         } else {
             console.error("API_KEY environment variable not set.");
-            // Optionally handle the UI to show an error message
         }
     }, []);
 
@@ -202,7 +202,8 @@ const App: React.FC = () => {
         <div className="bg-light min-h-screen font-sans">
             <Header />
             <main className="container mx-auto p-4 md:p-6">
-                {!ai && <div className="text-center text-red-600 font-bold p-4 bg-red-100 rounded-lg">Lỗi: API Key chưa được cấu hình. Vui lòng kiểm tra lại biến môi trường.</div>}
+                {/* Fix: Updated error message to not instruct the user on how to set the API key, per guidelines. */}
+                {!ai && <div className="text-center text-red-600 font-bold p-4 bg-red-100 rounded-lg">Lỗi: API Key chưa được cấu hình.</div>}
                 {ai && renderContent()}
             </main>
         </div>
