@@ -191,4 +191,5 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({ topic, questions, onQuiz
       </Card>
     </div>
   
-
+ );
+};
