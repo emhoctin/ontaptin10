@@ -127,24 +127,41 @@ return (
   <div className="max-w-3xl mx-auto">
     <Card>
       <div className="mb-6">
-        <button onClick={goHome} className="flex items-center text-primary font-semibold mb-6 hover:underline">
+        <button
+          onClick={goHome}
+          className="flex items-center text-primary font-semibold mb-6 hover:underline"
+        >
           <ArrowLeftIcon className="w-5 h-5 mr-2" />
           Quay về
         </button>
+
         <div className="flex justify-between items-center mb-2">
           <h2 className="text-xl font-bold text-dark">{topic.name}</h2>
-          <span className="text-gray-600 font-semibold">{currentQuestionIndex + 1} / {questions.length}</span>
+          <span className="text-gray-600 font-semibold">
+            {currentQuestionIndex + 1} / {questions.length}
+          </span>
         </div>
+
         <div className="w-full bg-gray-200 rounded-full h-2.5">
-          <div className="bg-primary h-2.5 rounded-full" style={{ width: `${progressPercentage}%` }}></div>
+          <div
+            className="bg-primary h-2.5 rounded-full"
+            style={{ width: `${progressPercentage}%` }}
+          ></div>
         </div>
       </div>
 
+      {/* ⚠️ Mở div hiển thị câu hỏi */}
       <div>
-        <p className="text-lg font-semibold mb-4 text-dark">{currentQuestionIndex + 1}. {currentQuestion.stem}</p>
+        <p className="text-lg font-semibold mb-4 text-dark">
+          {currentQuestionIndex + 1}. {currentQuestion.stem}
+        </p>
+
         {currentQuestion.answerIndices.length > 1 && (
-          <p className="text-sm text-green-600 mt-2">Câu hỏi này có nhiều đáp án.</p>
+          <p className="text-sm text-green-600 mt-2">
+            Câu hỏi này có nhiều đáp án.
+          </p>
         )}
+
         <div className="space-y-3">
           {currentQuestion.options.map((option, index) => (
             <button
@@ -152,10 +169,21 @@ return (
               onClick={() => handleOptionToggle(index)}
               disabled={showResult}
               className={`w-full text-left p-4 border-2 rounded-lg transition-all duration-200
-                ${selectedIndices.includes(index) ? 'border-primary bg-primary/10' : 'border-gray-300 hover:border-primary/50'}
-                ${showResult ? 'cursor-not-allowed' : 'cursor-pointer'}`}
+                ${
+                  selectedIndices.includes(index)
+                    ? 'border-primary bg-primary/10'
+                    : 'border-gray-300 hover:border-primary/50'
+                }
+                ${
+                  showResult
+                    ? 'cursor-not-allowed'
+                    : 'cursor-pointer'
+                }`}
             >
-              <span className="font-semibold">{String.fromCharCode(65 + index)}.</span> {option}
+              <span className="font-semibold">
+                {String.fromCharCode(65 + index)}.
+              </span>{' '}
+              {option}
             </button>
           ))}
         </div>
@@ -183,12 +211,14 @@ return (
               onClick={handleNext}
               className="bg-secondary text-white font-bold py-2 px-6 rounded-lg shadow-md hover:bg-orange-600 transition-colors"
             >
-              {currentQuestionIndex < questions.length - 1 ? 'Câu tiếp theo' : 'Hoàn thành'}
+              {currentQuestionIndex < questions.length - 1
+                ? 'Câu tiếp theo'
+                : 'Hoàn thành'}
             </button>
           )}
-       
-      </div>
-    </Card> {/* ✅ Đóng Card đúng vị trí */}
+        </div>
+      </div> {/* ✅ Đóng div hiển thị câu hỏi */}
+    </Card> {/* ✅ Đóng Card */}
   </div>   {/* ✅ Đóng div tổng */}
 );
 };
