@@ -170,7 +170,7 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({ topic, questions, onQuiz
           />
         )}
 
-        <div className="mt-8 flex justify-end">
+               <div className="mt-8 flex justify-end">
           {!showResult ? (
             <button
               onClick={handleSubmit}
@@ -188,8 +188,7 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({ topic, questions, onQuiz
             </button>
           )}
         </div>
-      </Card>
-    </div>
-  
- );
+      </Card> {/* ✅ Đóng thẻ Card đúng vị trí */}
+    </div>   {/* ✅ Đóng div tổng */}
+  );
 };
