@@ -852,12 +852,12 @@ export const MOCK_CS_QUESTIONS: Question[] = [
     "answerIndices": [0],
     "difficulty": "Hard",
     "tags": ["Bản quyền phần mềm", "VD"]
-  }
-]
+  },
+
   // =================================================================
   // Topic 4: Thiết kế đồ họa
   // =================================================================
-[
+
   {
     "id": "q_cs_04_01",
     "topicId": "topic_cs_04",
