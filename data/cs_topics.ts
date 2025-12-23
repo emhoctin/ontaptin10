@@ -25,8 +25,9 @@ export const MOCK_CS_TOPICS: Topic[] = [
     "id": "topic_cs_05",
     "name": "Lập trình với Python",
     "description": "Làm quen với ngôn ngữ lập trình Python, tư duy giải thuật, các cấu trúc dữ liệu cơ bản và lập trình giải quyết vấn đề."
-  }
-      {
+  },
+  
+  {
     "id": "topic_ĐÚNG_SAI",
     "name": "Câu hỏi ĐÚNG SAI",
     "description": "tổng hợp kiến thức"
