@@ -275,7 +275,7 @@ export const MOCK_CS_QUESTIONS: Question[] = [
     "difficulty": "Hard",
     "tags": ["Smart Home", "VD"]
   }
-],
+]
   // =================================================================
   // Topic 2: Mạng máy tính và Internet
   // =================================================================
@@ -700,7 +700,7 @@ export const MOCK_CS_QUESTIONS: Question[] = [
     "difficulty": "Hard",
     "tags": ["Phishing", "An toàn Email", "VD"]
   }
-],
+]
   // =================================================================
   // Topic 3: Đạo đức, pháp luật và văn hóa trong môi trường số
   // =================================================================
@@ -855,7 +855,7 @@ export const MOCK_CS_QUESTIONS: Question[] = [
     "difficulty": "Hard",
     "tags": ["Bản quyền phần mềm", "VD"]
   }
-],
+]
   // =================================================================
   // Topic 4: Thiết kế đồ họa
   // =================================================================
@@ -1310,7 +1310,7 @@ export const MOCK_CS_QUESTIONS: Question[] = [
     "difficulty": "Medium",
     "tags": ["Kiến thức tổng hợp", "TH"]
   }
-],
+]
 
 
     // =================================================================
@@ -1812,7 +1812,7 @@ export const MOCK_CS_QUESTIONS: Question[] = [
     "difficulty": "Hard",
     "tags": ["Phép toán số học", "VD"]
   }
-]  ,                                                                                                                  
+]                                                                                                                    
 
     // =================================================================
   // Topic CÂU HỎI ĐÚNG SAI
