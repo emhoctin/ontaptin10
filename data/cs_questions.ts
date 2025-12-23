@@ -4,7 +4,7 @@ export const MOCK_CS_QUESTIONS: Question[] = [
   // =================================================================
   // Topic 1: Máy tính và xã hội tri thức
   // =================================================================
-  
+  [
   {
     "id": "q_cs_01_11",
     "topicId": "topic_cs_01",
@@ -274,12 +274,12 @@ export const MOCK_CS_QUESTIONS: Question[] = [
     "answerIndices": [2],
     "difficulty": "Hard",
     "tags": ["Smart Home", "VD"]
-  },
-
+  }
+],
   // =================================================================
   // Topic 2: Mạng máy tính và Internet
   // =================================================================
- 
+ [
   {
     "id": "q_cs_02_01",
     "topicId": "topic_cs_02",
@@ -699,11 +699,12 @@ export const MOCK_CS_QUESTIONS: Question[] = [
     "answerIndices": [0],
     "difficulty": "Hard",
     "tags": ["Phishing", "An toàn Email", "VD"]
-  },
+  }
+],
   // =================================================================
   // Topic 3: Đạo đức, pháp luật và văn hóa trong môi trường số
   // =================================================================
-  
+  [
   {
     "id": "q_cs_03_01",
     "topicId": "topic_cs_03",
@@ -853,11 +854,12 @@ export const MOCK_CS_QUESTIONS: Question[] = [
     "answerIndices": [0],
     "difficulty": "Hard",
     "tags": ["Bản quyền phần mềm", "VD"]
-  }, 
+  }
+],
   // =================================================================
   // Topic 4: Thiết kế đồ họa
   // =================================================================
-
+[
   {
     "id": "q_cs_04_01",
     "topicId": "topic_cs_04",
@@ -1307,13 +1309,14 @@ export const MOCK_CS_QUESTIONS: Question[] = [
     "answerIndices": [0],
     "difficulty": "Medium",
     "tags": ["Kiến thức tổng hợp", "TH"]
-  },
+  }
+],
 
 
     // =================================================================
   // Topic 5: Lập trình Python
   // =================================================================
-
+[
   {
     "id": "q_cs_05_01",
     "topicId": "topic_cs_05",
@@ -1809,11 +1812,12 @@ export const MOCK_CS_QUESTIONS: Question[] = [
     "difficulty": "Hard",
     "tags": ["Phép toán số học", "VD"]
   }
+]  ,                                                                                                                  
 
     // =================================================================
   // Topic CÂU HỎI ĐÚNG SAI
   // =================================================================
-
+[
   {
     "id": "q_tf_01",
     "topicId": "topic_ĐÚNG_SAI",
@@ -2013,5 +2017,5 @@ export const MOCK_CS_QUESTIONS: Question[] = [
     ]
   }
 
-
+]
 ];
