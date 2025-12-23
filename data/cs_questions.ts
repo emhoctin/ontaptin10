@@ -279,35 +279,427 @@ export const MOCK_CS_QUESTIONS: Question[] = [
   // =================================================================
   // Topic 2: Mạng máy tính và Internet
   // =================================================================
-  { id: "q_cs_02_01", topicId: "topic_cs_02", stem: "Hãy chỉ ra thiết bị nào sau đây KHÔNG là thiết bị cần thiết trong mạng cục bộ?", options: ["Máy chiếu", "Máy tính", "Router", "Hub/ Switch"], answerIndices: [0], difficulty: "Easy", tags: ["Mạng cục bộ", "Thiết bị"], explanation_prompt: "Phân biệt thiết bị mạng và thiết bị ngoại vi." },
-  { id: "q_cs_02_02", topicId: "topic_cs_02", stem: "Theo phạm vi địa lí, các mạng máy tính chia thành hai loại là mạng cục bộ và mạng diện rộng. Tên gọi nào sau đây là viết tắt của mạng cục bộ?", options: ["Local Area Network, viết tắt là LAN.", "Wide Area Network, viết tắt là WAN.", "Mạng không dây Wifi.", "Mạng toàn cầu Internet."], answerIndices: [0], difficulty: "Easy", tags: ["Mạng cục bộ", "LAN"], explanation_prompt: "Giải thích thuật ngữ LAN." },
-  { id: "q_cs_02_03", topicId: "topic_cs_02", stem: "Các mạng cục bộ có quy mô như thế nào theo các phạm vi địa lý sau?", options: ["Phạm vi nhỏ như gia đình, cơ quan, trường học hay công ty.", "Phạm vi lớn như thành phố, quốc gia.", "Phạm vi chỉ trên một máy tính.", "Phạm vi toàn cầu."], answerIndices: [0], difficulty: "Easy", tags: ["Mạng cục bộ", "Quy mô"], explanation_prompt: "Xác định quy mô của mạng LAN." },
-  { id: "q_cs_02_04", topicId: "topic_cs_02", stem: "Mạng Internet có quy mô như thế nào theo các phạm vi địa lý sau?", options: ["Toàn cầu, kết nối các thiết bị và mạng ở khắp nơi trên thế giới.", "Phạm vi nhỏ như gia đình, cơ quan, trường học hay công ty.", "Phạm vi lớn như thành phố, quốc gia.", "Phạm vi chỉ trên một máy tính."], answerIndices: [0], difficulty: "Easy", tags: ["Internet", "Quy mô"], explanation_prompt: "Xác định quy mô của Internet." },
-  { id: "q_cs_02_05", topicId: "topic_cs_02", stem: "Khi nói về chủ sở của mạng Internet, phát biểu nào sau đây là ĐÚNG?", options: ["Không có ai là chủ sở hữu.", "Máy chủ Google.", "Hãng Microsoft", "Hãng Window."], answerIndices: [0], difficulty: "Easy", tags: ["Internet", "Sở hữu"], explanation_prompt: "Giải thích tính phi tập trung của Internet." },
-  { id: "q_cs_02_06", topicId: "topic_cs_02", stem: "Khi nói về chủ sở của mạng LAN, phát biểu nào sau đây là ĐÚNG?", options: ["LAN là sở hữu của một cá nhân, gia đình, cơ quan hay tổ chức xác định.", "Không có ai là chủ sở hữu.", "LAN là sở hữu của một quốc gia.", "LAN là sở hữu của nhà mạng như VNPT, Viettel."], answerIndices: [0], difficulty: "Easy", tags: ["Mạng cục bộ", "Sở hữu"], explanation_prompt: "Xác định chủ sở hữu của mạng LAN." },
-  { id: "q_cs_02_07", topicId: "topic_cs_02", stem: "Những phát biểu nào sau đây nói về cách kết nối mạng Internet? (Chọn các đáp án đúng)", options: ["Kết nối qua Router thông qua các nhà cung cấp dịch vụ kết nối.", "Kết nối trực tiếp giữa các thiết bị mà không cần sử dụng router.", "Kết nối qua mạng vệ tinh mà không cần dây cáp.", "Kết nối chỉ sử dụng mạng LAN để truy cập Internet."], answerIndices: [0, 2], difficulty: "Medium", tags: ["Internet", "Kết nối", "Multiple"], explanation_prompt: "Liệt kê các phương thức kết nối Internet." },
-  { id: "q_cs_02_08", topicId: "topic_cs_02", stem: "Hãy chỉ ra phát biểu SAI về vai trò của Internet?", options: ["Internet là mạng chỉ cho phép kết nối giao tiếp trong nước, người dùng muốn tra cứu thông tin thì phải trả phí.", "Internet là một nguồn thông tin khổng lồ về mọi lĩnh vực.", "Internet đã có ảnh hưởng sâu sắc tới mọi lĩnh vực của đời sống xã hội.", "Internet đã giúp con người có thể kết nối và giao tiếp với nhau một cách dễ dàng và tiện lợi."], answerIndices: [0], difficulty: "Medium", tags: ["Internet", "Vai trò"], explanation_prompt: "Phân tích các vai trò chính của Internet." },
-  { id: "q_cs_02_09", topicId: "topic_cs_02", stem: "Hãy chỉ ra phương án ĐÚNG nhất khi phát biểu về ảnh hưởng của Internet đối với các lĩnh vực hoạt động của con người?", options: ["Internet ảnh hưởng sâu sắc tới mọi lĩnh vực của đời sống xã hội, thay đổi cách thức học tập, làm việc, giao tiếp với nhau.", "Internet ảnh hưởng trong giao tiếp cộng đồng, có thể kết nối và giao tiếp với nhau dễ dàng và thuận tiện.", "Internet đã giúp hoạt động giáo dục hiệu quả hơn, có thể tìm kiếm thông tin, học tập trực tuyến.", "Internet hỗ trợ rất nhiều trong công việc quản lý, quản lý hồ sơ học sinh, học bạ điện tử."], answerIndices: [0], difficulty: "Medium", tags: ["Internet", "Ảnh hưởng"], explanation_prompt: "Tổng kết ảnh hưởng toàn diện của Internet đến xã hội." },
-  { id: "q_cs_02_10", topicId: "topic_cs_02", stem: "Điện toán đám mây KHÔNG thể cung cấp những dịch vụ nào sau đây?", options: ["Dịch vụ bảo trì phần cứng và phần mềm tại gia đình.", "Dịch vụ lưu trữ.", "Dịch vụ thư tín điện tử.", "Dịch vụ cung cấp máy chủ."], answerIndices: [0], difficulty: "Medium", tags: ["Điện toán đám mây", "Dịch vụ"], explanation_prompt: "Phân biệt dịch vụ đám mây và dịch vụ tại chỗ." },
-  { id: "q_cs_02_11", topicId: "topic_cs_02", stem: "Hãy chỉ ra phát biểu nào sau đây là SAI khi nói về dịch vụ đám mây?", options: ["Dịch vụ Gmail, Google maps là các dịch vụ phải trả phí khi sử dụng.", "Gmail là 1 dịch vụ đám mây.", "Muốn sử dụng điện toán đám mây phải kết nối Internet.", "Điện toán đám mây dữ liệu được thu thập liên tục, tức thời."], answerIndices: [0], difficulty: "Hard", tags: ["Điện toán đám mây", "Dịch vụ"], explanation_prompt: "Làm rõ mô hình kinh doanh của các dịch vụ đám mây phổ biến." },
-  { id: "q_cs_02_12", topicId: "topic_cs_02", stem: "Định nghĩa nào sau đây ĐÚNG NHẤT về hệ thống IoT (Internet of Things)?", options: ["IoT là việc kết nối các thiết bị thông minh lại với nhau nhằm thu thập, trao đổi và xử lí dữ liệu tự động.", "IoT là việc kết nối các thiết bị thông minh thông qua mạng Internet nhằm thu thập dữ liệu trên phạm vi toàn cầu.", "IoT là việc kết nối các thiết bị tiếp nhận tín hiệu.", "IoT là việc kết nối các máy tính nhằm trao đổi dữ liệu với nhau."], answerIndices: [0], difficulty: "Easy", tags: ["IoT", "Khái niệm"], explanation_prompt: "Định nghĩa chính xác về IoT." },
-  { id: "q_cs_02_13", topicId: "topic_cs_02", stem: "Bạn Nam đang tham gia lớp học trực tuyến qua phần mềm Zoom. Ứng dụng này thể hiện rõ lợi ích nào của mạng máy tính trong cuộc sống hiện đại?", options: ["Cung cấp khả năng giao tiếp, trao đổi thông tin từ xa theo thời gian thực.", "Giảm chi phí phần cứng máy tính.", "Tăng khả năng lưu trữ cục bộ cho thiết bị.", "Loại bỏ hoàn toàn nguy cơ mất an toàn thông tin."], answerIndices: [0], difficulty: "Hard", tags: ["Mạng máy tính", "Lợi ích"], explanation_prompt: "Phân tích lợi ích của giao tiếp thời gian thực qua mạng." },
-  { id: "q_cs_02_14", topicId: "topic_cs_02", stem: "Trong môi trường làm việc hiện đại, các nhân viên có thể truy cập các tệp công việc chung từ bất cứ đâu. Điều này là nhờ khả năng nào của mạng máy tính?", options: ["Cho phép làm việc trực tuyến và truy cập tài nguyên trên máy chủ từ xa.", "Cải thiện độ phân giải của màn hình làm việc.", "Tăng cường tốc độ xử lí của CPU.", "Tự động sửa lỗi chính tả trong văn bản."], answerIndices: [0], difficulty: "Hard", tags: ["Mạng máy tính", "Lợi ích"], explanation_prompt: "Giải thích khả năng truy cập tài nguyên từ xa của mạng." },
-  { id: "q_cs_02_15", topicId: "topic_cs_02", stem: "Người dùng sao lưu ảnh và tài liệu quan trọng lên dịch vụ đám mây. Chọn các phát biểu **ĐÚNG** về việc sao lưu đám mây.", options: ["Sao lưu lên đám mây giúp khôi phục dữ liệu khi thiết bị bị mất hoặc hỏng.", "Dịch vụ đám mây luôn đảm bảo an toàn tuyệt đối cho mọi dữ liệu nên không cần bảo mật thêm.", "Người dùng nên bật xác thực hai yếu tố để tăng cường bảo mật tài khoản đám mây.", "Sao lưu định kỳ và kiểm tra khôi phục là thực hành tốt khi dùng dịch vụ đám mây."], answerIndices: [0, 2, 3], difficulty: "Hard", tags: ["Điện toán đám mây", "Bảo mật", "Multiple"], explanation_prompt: "Nêu các phương pháp tốt nhất khi sử dụng dịch vụ sao lưu đám mây." },
-  { id: "q_cs_02_16", topicId: "topic_cs_02", stem: "Chọn các phát biểu **ĐÚNG** về mạng máy tính và Internet.", options: ["Mạng máy tính là phương tiện giúp các máy tính liên lạc với nhau.", "Thiết bị mạng (Switch, Router) không cần thiết để tạo ra một mạng máy tính.", "Internet là mạng máy tính lớn nhất, kết nối hàng tỉ thiết bị trên toàn thế giới.", "Mạng cục bộ (LAN) chỉ cho phép kết nối tối đa 10 máy tính."], answerIndices: [0, 2], difficulty: "Easy", tags: ["Mạng máy tính", "Internet", "Multiple"], explanation_prompt: "Tổng hợp các khái niệm cơ bản về mạng máy tính và Internet." },
-  { id: "q_cs_02_17", topicId: "topic_cs_02", stem: "Tình huống: Một cửa hàng nhỏ muốn lắp đặt mạng để 3 máy tính có thể chia sẻ máy in và truy cập Internet. Chọn các phát biểu **ĐÚNG** trong tình huống này.", options: ["Việc kết nối 3 máy tính và 1 máy in trong cửa hàng này là một ví dụ về mạng cục bộ (LAN).", "Cửa hàng cần ít nhất hai Bộ định tuyến (Router) để chia sẻ máy in.", "Máy in trong mạng sẽ được coi là một tài nguyên được chia sẻ.", "Internet là một loại tài nguyên không cần mạng máy tính để truy cập."], answerIndices: [0, 2], difficulty: "Hard", tags: ["Mạng cục bộ", "LAN", "Multiple"], explanation_prompt: "Phân tích một mô hình mạng LAN đơn giản." },
-  { id: "q_cs_02_18", topicId: "topic_cs_02", stem: "Tình huống: Một trường học muốn xây dựng hệ thống quản lí học sinh trên nền tảng đám mây (Cloud Computing). Chọn các phát biểu **ĐÚNG** về hệ thống này.", options: ["Việc truy cập dữ liệu học sinh trên đám mây đòi hỏi kết nối Internet (WAN).", "Hệ thống này giúp giáo viên và phụ huynh có thể truy cập thông tin từ xa, bất cứ đâu.", "Nền tảng đám mây không liên quan gì đến mạng máy tính.", "Mạng nội bộ (LAN) của trường là đủ để vận hành hệ thống này mà không cần Internet."], answerIndices: [0, 1], difficulty: "Hard", tags: ["Điện toán đám mây", "WAN", "Multiple"], explanation_prompt: "Phân tích mối quan hệ giữa điện toán đám mây và mạng diện rộng." },
-  { id: "q_cs_02_19", topicId: "topic_cs_02", stem: "Hãy cho biết để truy cập khai thác thông tin trên internet cần có trình duyệt web gì?", options: ["Google Chrome", "Google mail", "Google Docs", "Google Translate"], answerIndices: [0], difficulty: "Easy", tags: ["Trình duyệt web", "Khai thác thông tin"], explanation_prompt: "Nêu vai trò của trình duyệt web." },
-  { id: "q_cs_02_20", topicId: "topic_cs_02", stem: "Hãy cho biết tên miền trong địa chỉ website có .edu thì Website đó thuộc về lĩnh vực nào sau đây?", options: ["Lĩnh vực giáo dục", "Lĩnh vực chính phủ", "Lĩnh vực cung cấp thông tin", "Thuộc về các tổ chức khác"], answerIndices: [0], difficulty: "Easy", tags: ["Tên miền", ".edu"], explanation_prompt: "Giải thích ý nghĩa của tên miền .edu." },
-  { id: "q_cs_02_21", topicId: "topic_cs_02", stem: "Kết quả tìm kiếm thông tin bằng máy tìm kiếm có thể được thể hiện dưới dạng gì?", options: ["Văn bản, hình ảnh, video", "Video", "Hình ảnh", "Văn bản"], answerIndices: [0], difficulty: "Easy", tags: ["Tìm kiếm", "Kết quả"], explanation_prompt: "Liệt kê các dạng kết quả tìm kiếm." },
-  { id: "q_cs_02_22", topicId: "topic_cs_02", stem: "Trang web hiển thị đầu tiên khi ta truy cập vào website gọi là gì?", options: ["Trang chủ", "Một trang liên kết", "Một website", "Trang web google"], answerIndices: [0], difficulty: "Easy", tags: ["Website", "Trang chủ"], explanation_prompt: "Định nghĩa trang chủ." },
-  { id: "q_cs_02_23", topicId: "topic_cs_02", stem: "www.igiaoduc.vn, theo em “vn” trên địa chỉ trang web có nghĩa là gì?", options: ["Ký hiệu tên nước Việt Nam.", "Một kí hiệu nào đó", "Chữ viết tắt tiếng Anh", "Chỉ là một địa chỉ"], answerIndices: [0], difficulty: "Medium", tags: ["Tên miền", ".vn"], explanation_prompt: "Giải thích ý nghĩa của tên miền quốc gia .vn." },
-  { id: "q_cs_02_24", topicId: "topic_cs_02", stem: "Bạn Lan được người thân tặng 1 lọ thuốc bổ toàn tiếng Anh, bạn nên sử dụng công cụ gì trên internet để tìm hiểu về những thông tin trên lọ thuốc.", options: ["Google máy ảnh + google dịch.", "Google dịch", "Google tìm kiếm", "Google máy ảnh"], answerIndices: [0], difficulty: "Hard", tags: ["Công cụ dịch", "Ứng dụng"], explanation_prompt: "Hướng dẫn sử dụng công cụ dịch hình ảnh." },
-  { id: "q_cs_02_25", topicId: "topic_cs_02", stem: "Phát biểu nào sau đây ĐÚNG để khai thác nguồn học liệu mở trên internet phục vụ cho học tập?", options: ["Truy cập vào trang https://igiaoduc.vn/", "Truy cập vào trang https://google.com.vn", "Truy cập vào trang https://translate.google.com/", "Truy cập vào trang https://drive.google.com/"], answerIndices: [0], difficulty: "Hard", tags: ["Học liệu mở", "Khai thác thông tin"], explanation_prompt: "Giới thiệu về các nguồn học liệu mở." },
-  { id: "q_cs_02_26", topicId: "topic_cs_02", stem: "Trên Internet, bạn muốn tìm hiểu một bài viết về công nghệ mới viết bằng tiếng Anh nhưng gặp khó khăn với nhiều thuật ngữ chuyên ngành. Bạn nên chọn phương án nào sau đây để đọc nội dung bài viết một cách dễ dàng nhất?", options: ["Sử dụng Google Translate để dịch từng phần văn bản từ tiếng Anh sang tiếng Việt.", "Sử dụng Google Translate để dịch từ tiếng Việt sang tiếng Anh.", "Sử dụng ứng dụng chụp ảnh trên điện thoại để dịch nội dung bài viết.", "Tìm kiếm từ khóa của bài viết trên Internet để tìm hiểu thêm thông tin."], answerIndices: [0], difficulty: "Hard", tags: ["Công cụ dịch", "Ứng dụng"], explanation_prompt: "Hướng dẫn cách dịch văn bản hiệu quả." },
-  { id: "q_cs_02_27", topicId: "topic_cs_02", stem: "Sắp xếp các thứ tự sau theo trình tự hợp lí để thực hiện thao tác tìm kiếm thông tin trên máy tìm kiếm:\n1. Gõ từ khóa vào ô để nhập từ khóa\n2. Truy cập vào máy tìm kiếm\n3. Nhấn Enter hoặc nháy Tìm kiếm. Kết quả tìm kiếm sẽ được liệt kê dưới dạng danh sách liên kết", options: ["1-2-3", "2-1-3", "1-3-2", "2-3-1"], answerIndices: [1], difficulty: "Hard", tags: ["Tìm kiếm", "Thao tác"], explanation_prompt: "Mô tả các bước tìm kiếm thông tin." },
-  { id: "q_cs_02_28", topicId: "topic_cs_02", stem: "Hãy xác định các bước đúng để dịch 1 đoạn văn bản tiếng việt sang tiếng anh?\n1: Truy cập vào trang web http://translate.google.com/\n2: Chọn ngôn ngữ đích Tiếng anh\n3: Nhập văn bản trực tiếp hoặc nhập bằng giọng nói\n4: Chọn ngôn ngữ nguồn là tiếng việt\n5: Xem văn bản vừa dịch được", options: ["1-4-3-2-5", "1-3-4-2-5", "1-4-2-3-5", "5-3-4-2-1"], answerIndices: [2], difficulty: "Hard", tags: ["Công cụ dịch", "Thao tác"], explanation_prompt: "Mô tả các bước dịch văn bản." },
-
+ [
+  {
+    "id": "q_cs_02_01",
+    "topicId": "topic_cs_02",
+    "subTopic": "Bài 8: Mạng máy tính trong cuộc sống hiện đại",
+    "stem": "Câu 1 [NB]. Các mạng cục bộ (LAN) thường có quy mô như thế nào về phạm vi địa lý?",
+    "options": [
+      "Phạm vi nhỏ như gia đình, cơ quan, trường học hay công ty.",
+      "Phạm vi lớn như thành phố, quốc gia hoặc châu lục.",
+      "Phạm vi chỉ kết nối các bộ phận bên trong một máy tính.",
+      "Phạm vi toàn cầu."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["LAN", "Phạm vi địa lý", "NB"]
+  },
+  {
+    "id": "q_cs_02_02",
+    "topicId": "topic_cs_02",
+    "subTopic": "Bài 8: Mạng máy tính trong cuộc sống hiện đại",
+    "stem": "Câu 2 [NB]. Mạng Internet có quy mô và đặc điểm như thế nào về phạm vi địa lý?",
+    "options": [
+      "Toàn cầu, kết nối các thiết bị và mạng ở khắp nơi trên thế giới.",
+      "Phạm vi nhỏ, giới hạn trong một tòa nhà, cơ quan hoặc trường học.",
+      "Phạm vi lớn, thường giới hạn trong một thành phố hoặc quốc gia.",
+      "Phạm vi chỉ kết nối các mạng riêng lẻ không liên quan đến nhau."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Internet", "Phạm vi địa lý", "NB"]
+  },
+  {
+    "id": "q_cs_02_03",
+    "topicId": "topic_cs_02",
+    "subTopic": "Bài 8: Mạng máy tính trong cuộc sống hiện đại",
+    "stem": "Câu 3 [NB]. Phát biểu nào sau đây là ĐÚNG khi nói về chủ sở hữu của mạng cục bộ (LAN)?",
+    "options": [
+      "LAN là sở hữu của một cá nhân, gia đình, cơ quan hay tổ chức xác định.",
+      "Không có ai là chủ sở hữu vì nó kết nối nhiều thiết bị.",
+      "LAN là sở hữu chung của một quốc gia",
+      "LAN là sở hữu của nhà cung cấp dịch vụ Internet (ISP) như VNPT, Viettel."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["LAN", "Chủ sở hữu", "NB"]
+  },
+  {
+    "id": "q_cs_02_04",
+    "topicId": "topic_cs_02",
+    "subTopic": "Bài 8: Mạng máy tính trong cuộc sống hiện đại",
+    "stem": "Câu 4[TH]. Phát biểu nào sau đây mô tả đúng nhất về cách một thiết bị cá nhân kết nối vào mạng Internet?",
+    "options": [
+      "Kết nối qua thiết bị định tuyến (Router) thông qua các nhà cung cấp dịch vụ Internet (ISP).",
+      "Kết nối trực tiếp giữa các thiết bị mà không cần sử dụng bất kỳ thiết bị trung gian nào.",
+      "Chỉ có thể kết nối qua mạng vệ tinh mà không cần dây cáp hoặc cáp quang.",
+      "Chỉ cần kết nối qua mạng cục bộ (LAN) là đủ để truy cập Internet mà không cần ISP."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Medium",
+    "tags": ["Kết nối Internet", "Router", "ISP", "TH"]
+  },
+  {
+    "id": "q_cs_02_05",
+    "topicId": "topic_cs_02",
+    "subTopic": "Bài 8: Mạng máy tính trong cuộc sống hiện đại",
+    "stem": "Câu 5 [TH]. Hãy chỉ ra phát biểu SAI về vai trò của Internet?",
+    "options": [
+      "Internet là mạng chỉ cho phép kết nối giao tiếp trong nước, người dùng muốn tra cứu thông tin thì phải trả phí.",
+      "Internet là một nguồn thông tin khổng lồ và đa dạng về mọi lĩnh vực.",
+      "Internet đã có ảnh hưởng sâu sắc tới mọi lĩnh vực của đời sống xã hội.",
+      "Internet đã giúp con người có thể kết nối và giao tiếp với nhau theo thời gian thực một cách dễ dàng và tiện lợi."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Medium",
+    "tags": ["Vai trò Internet", "TH"]
+  },
+  {
+    "id": "q_cs_02_06",
+    "topicId": "topic_cs_02",
+    "subTopic": "Bài 8: Mạng máy tính trong cuộc sống hiện đại",
+    "stem": "Câu 6. [TH] Phát biểu nào sau đây là ĐÚNG NHẤT khi nói về ảnh hưởng bao quát của Internet đối với các lĩnh vực hoạt động của con người?",
+    "options": [
+      "Internet ảnh hưởng sâu sắc tới mọi lĩnh vực của đời sống xã hội, thay đổi cách thức học tập, làm việc, giao tiếp và giải trí của con người.",
+      "Internet chủ yếu ảnh hưởng trong giao tiếp cộng đồng, giúp kết nối dễ dàng hơn.",
+      "Internet chỉ hỗ trợ hoạt động giáo dục hiệu quả hơn, giúp tìm kiếm thông tin và học tập trực tuyến.",
+      "Internet chủ yếu hỗ trợ trong công việc quản lý, chẳng hạn như quản lý hồ sơ học sinh, học bạ điện tử."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Medium",
+    "tags": ["Ảnh hưởng Internet", "TH"]
+  },
+  {
+    "id": "q_cs_02_07",
+    "topicId": "topic_cs_02",
+    "subTopic": "Bài 8: Mạng máy tính trong cuộc sống hiện đại",
+    "stem": "Câu 7 [TH] Định nghĩa nào sau đây ĐÚNG NHẤT về hệ thống IoT (Internet of Things)?",
+    "options": [
+      "IoT là việc kết nối các thiết bị thông minh lại với nhau nhằm thu thập, trao đổi và xử lí dữ liệu tự động.",
+      "IoT là việc kết nối các thiết bị thông minh thông qua mạng Internet nhằm thu thập dữ liệu trên phạm vi toàn cầu.",
+      "IoT là việc kết nối các thiết bị tiếp nhận tín hiệu và hiển thị kết quả ra màn hình.",
+      "IoT là việc kết nối các máy tính nhằm trao đổi dữ liệu với nhau."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Medium",
+    "tags": ["IoT", "Khái niệm", "TH"]
+  },
+  {
+    "id": "q_cs_02_08",
+    "topicId": "topic_cs_02",
+    "subTopic": "Bài 8: Mạng máy tính trong cuộc sống hiện đại",
+    "stem": "Câu 8[TH]. Điện toán đám mây (Cloud Computing) KHÔNG thể cung cấp những dịch vụ nào sau đây?",
+    "options": [
+      "Dịch vụ bảo trì phần cứng và phần mềm tận nơi (tại gia đình hoặc văn phòng).",
+      "Dịch vụ lưu trữ dữ liệu trực tuyến (Storage as a Service).",
+      "Dịch vụ thư tín điện tử, quản lý email (Software as a Service - SaaS).",
+      "Dịch vụ cung cấp máy chủ, nền tảng tính toán ảo (Infrastructure as a Service - IaaS)."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Medium",
+    "tags": ["Cloud Computing", "Dịch vụ", "TH"]
+  },
+  {
+    "id": "q_cs_02_09",
+    "topicId": "topic_cs_02",
+    "subTopic": "Bài 8: Mạng máy tính trong cuộc sống hiện đại",
+    "stem": "Câu 9 [TH]. Hãy chỉ ra phát biểu nào sau đây là SAI khi nói về dịch vụ đám mây?",
+    "options": [
+      "Các dịch vụ như Gmail hay Google Maps là các dịch vụ phải trả phí hoàn toàn khi sử dụng.",
+      "Gmail là một dịch vụ đám mây (Cloud Service) hoạt động dựa trên Internet.",
+      "Muốn sử dụng hầu hết các dịch vụ điện toán đám mây, thiết bị cần phải kết nối Internet.",
+      "Đặc điểm của điện toán đám mây là dữ liệu được thu thập, xử lý liên tục và tức thời."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Medium",
+    "tags": ["Dịch vụ đám mây", "TH"]
+  },
+  {
+    "id": "q_cs_02_10",
+    "topicId": "topic_cs_02",
+    "subTopic": "Bài 8: Mạng máy tính trong cuộc sống hiện đại",
+    "stem": "Câu 10 [VD]. Bạn Nam đang tham gia lớp học trực tuyến qua phần mềm Zoom. Ứng dụng này thể hiện rõ nhất lợi ích nào của mạng máy tính trong cuộc sống hiện đại?",
+    "options": [
+      "Cung cấp khả năng giao tiếp, trao đổi thông tin từ xa theo thời gian thực (real-time communication).",
+      "Giảm chi phí phần cứng máy tính cho người dùng.",
+      "Tăng khả năng lưu trữ cục bộ (trên ổ cứng máy tính) cho thiết bị.",
+      "Loại bỏ hoàn toàn nguy cơ mất an toàn thông tin (an toàn dữ liệu tuyệt đối)."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Hard",
+    "tags": ["Giao tiếp trực tuyến", "Lợi ích mạng", "VD"]
+  },
+  {
+    "id": "q_cs_02_11",
+    "topicId": "topic_cs_02",
+    "subTopic": "Bài 9: An toàn trên không gian mạng",
+    "stem": "Câu 1 [NB]. Hành động nào sau đây KHÔNG bị phê phán (là hành vi đúng đắn, hợp pháp) khi tham gia các hoạt động trên không gian mạng?",
+    "options": [
+      "Tự thay đổi mật khẩu cho máy tính cá nhân của mình.",
+      "Phát tán các hình ảnh đồi trụy lên mạng.",
+      "Cố ý làm nhiễm virus vào máy tính của trường.",
+      "Sao chép phần mềm không có bản quyền."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Hành vi hợp pháp", "An toàn mạng", "NB"]
+  },
+  {
+    "id": "q_cs_02_12",
+    "topicId": "topic_cs_02",
+    "subTopic": "Bài 9: An toàn trên không gian mạng",
+    "stem": "Câu 2 [TH]. Mạng Internet là môi trường giao tiếp nhanh chóng, thuận tiện nhưng ẩn chứa nhiều nguy cơ. Em cần làm gì để tránh mất an toàn thông tin?",
+    "options": [
+      "Chỉ truy cập các trang web tin cậy; giữ bí mật thông tin cá nhân; chỉ kết bạn với người quen biết.",
+      "Thường xuyên chia sẻ thông tin cá nhân, hình ảnh lên mạng xã hội.",
+      "Bấm “Like”, “Share” mọi tin tức dù chưa kiểm chứng.",
+      "Dành nhiều giờ mỗi ngày để chơi game hoặc xem mạng xã hội."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Medium",
+    "tags": ["Bảo vệ thông tin", "An toàn mạng", "TH"]
+  },
+  {
+    "id": "q_cs_02_13",
+    "topicId": "topic_cs_02",
+    "subTopic": "Bài 9: An toàn trên không gian mạng",
+    "stem": "Câu 3 [VD]. Bạn em thường xuyên nhận được tin nhắn xúc phạm (ví dụ: “mày là đồ ngu ngốc, béo ú”) từ một người quen. Em hãy đưa ra lời khuyên để có biện pháp phòng chống hành vi bắt nạt trực tuyến (Cyberbullying)?",
+    "options": [
+      "Báo cho thầy cô, cha mẹ để xin ý kiến và được hỗ trợ.",
+      "Bỏ qua vì nghĩ họ chỉ đùa",
+      "Nhắn tin đáp trả bằng lời lẽ tương tự.",
+      "Gặp người đó để cãi nhau trực tiếp."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Hard",
+    "tags": ["Cyberbullying", "Phòng chống bắt nạt", "VD"]
+  },
+  {
+    "id": "q_cs_02_14",
+    "topicId": "topic_cs_02",
+    "subTopic": "Bài 9: An toàn trên không gian mạng",
+    "stem": "Câu 4 [VD]. Trong buổi họp mặt gia đình, chú của em quay video về em và nói sẽ đăng lên mạng cho mọi người xem, nhưng em không muốn hình ảnh của mình bị đăng. Em nên làm gì?",
+    "options": [
+      "Nói với bố mẹ và nhờ họ trao đổi nhẹ nhàng với chú, đề nghị không đăng lên mạng (tôn trọng quyền hình ảnh).",
+      "Không thể làm gì vì video là của chú quay.",
+      "Cứ để chú đăng, nếu có vấn đề thì mới yêu cầu xóa",
+      "Nổi giận và bắt chú xóa ngay video."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Hard",
+    "tags": ["Quyền hình ảnh", "Ứng xử mạng", "VD"]
+  },
+  {
+    "id": "q_cs_02_15",
+    "topicId": "topic_cs_02",
+    "subTopic": "Bài 9: An toàn trên không gian mạng",
+    "stem": "Câu 5 [VD]. Em thấy một diễn viên mạng nổi tiếng nhưng video của họ có nội dung dung tục, thiếu văn hóa. Bạn bè bảo đó là “phong cách mới”. Em nên làm gì?",
+    "options": [
+      "Không xem kênh đó nữa, đồng thời khuyên bạn bè không nên xem.",
+      "Hòa theo để khỏi bị cho là cổ hủ.",
+      "Không xem nhưng cũng không quan tâm bạn khác.",
+      "Tiếp tục xem để “theo dõi phong cách mới”."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Hard",
+    "tags": ["Văn hóa mạng", "VD"]
+  },
+  {
+    "id": "q_cs_02_16",
+    "topicId": "topic_cs_02",
+    "subTopic": "Bài 9: An toàn trên không gian mạng",
+    "stem": "Câu 6 [NB]. Điều nào sau đây ĐÚNG về đặc điểm của phần mềm độc hại Trojan?",
+    "options": [
+      "Là phần mềm nội gián dùng để đánh cắp thông tin, chiếm quyền điều khiển máy tính từ xa.",
+      "Chỉ là đoạn mã nhỏ, không gây hại.",
+      "Chỉ ghi lại hoạt động máy tính mà không ảnh hưởng người dùng.",
+      "Là phần mềm bảo vệ máy tính."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Trojan", "Phần mềm độc hại", "NB"]
+  },
+  {
+    "id": "q_cs_02_17",
+    "topicId": "topic_cs_02",
+    "subTopic": "Bài 9: An toàn trên không gian mạng",
+    "stem": "Câu 7 [NB]. Điều nào sau đây ĐÚNG khi nói về Virus và Worm (sâu máy tính)?",
+    "options": [
+      "Là phần mềm độc hại có khả năng lây nhiễm, phá hủy dữ liệu, làm tê liệt hệ thống.",
+      "Là phần mềm nội gián chiếm quyền điều khiển.",
+      "Chỉ gắn kèm với tệp tin và không thể lây lan qua mạng.",
+      "Không thể lây lan qua mạng và chỉ gây hại nhẹ."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Virus", "Worm", "Phần mềm độc hại", "NB"]
+  },
+  {
+    "id": "q_cs_02_18",
+    "topicId": "topic_cs_02",
+    "subTopic": "Bài 9: An toàn trên không gian mạng",
+    "stem": "Câu 8 [TH]. Trojan là phương thức tấn công máy tính theo kiểu nào?",
+    "options": [
+      "Ghi lại thao tác bàn phím (Keylogging), truy cập ngầm, chiếm quyền điều khiển máy tính từ xa",
+      "Tấn công trực tiếp làm tê liệt máy tính để lấy thông tin.",
+      "Lừa người dùng nhập thông tin cá nhân (Phishing).",
+      "Tấn công làm nghẽn mạng (DDoS)."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Medium",
+    "tags": ["Trojan", "Phương thức tấn công", "TH"]
+  },
+  {
+    "id": "q_cs_02_19",
+    "topicId": "topic_cs_02",
+    "subTopic": "Bài 9: An toàn trên không gian mạng",
+    "stem": "Câu 9 [VD]. Lời khuyên nào SAI khi bảo vệ máy tính và thông tin cá nhân?",
+    "options": [
+      "Không cần làm gì vì máy tính đã có sẵn phần mềm bảo vệ.",
+      "Luôn đăng xuất sau khi dùng xong tài khoản.",
+      "Không mở tệp đính kèm lạ hoặc từ người không rõ nguồn gốc.",
+      "Cài đặt và cập nhật phần mềm diệt virus thường xuyên."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Hard",
+    "tags": ["Bảo vệ máy tính", "An toàn thông tin", "VD"]
+  },
+  {
+    "id": "q_cs_02_20",
+    "topicId": "topic_cs_02",
+    "subTopic": "Bài 9: An toàn trên không gian mạng",
+    "stem": "Câu 10 [VD]. Hành vi nào có thể khiến máy tính bị nhiễm phần mềm độc hại?",
+    "options": [
+      "Truy cập trang web lạ hoặc nhấp vào đường link không rõ nguồn gốc.",
+      "Cài đặt phần mềm diệt virus như BKAV, Kaspersky.",
+      "Thường xuyên cập nhật phần mềm bảo vệ hệ điều hành.",
+      "Học online và tìm kiếm thông tin trên các trang web chính thống."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Hard",
+    "tags": ["Lây nhiễm mã độc", "An toàn mạng", "VD"]
+  },
+  {
+    "id": "q_cs_02_21",
+    "topicId": "topic_cs_02",
+    "subTopic": "Bài 10: TH khai thác tài nguyên trên Internet",
+    "stem": "Câu 1. [NB] Để tìm kiếm thông tin nhanh và hiệu quả nhất trên Internet, người dùng thường sử dụng dịch vụ nào sau đây?",
+    "options": [
+      "Công cụ tìm kiếm (Search Engine) như Google, Bing.",
+      "Dịch vụ Thư điện tử (Email).",
+      "Mạng xã hội như Facebook, Zalo.",
+      "Dịch vụ lưu trữ trực tuyến như Google Drive."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Search Engine", "Tìm kiếm thông tin", "NB"]
+  },
+  {
+    "id": "q_cs_02_22",
+    "topicId": "topic_cs_02",
+    "subTopic": "Bài 10: TH khai thác tài nguyên trên Internet",
+    "stem": "Câu 2. [NB] Phát biểu nào sau đây là ĐÚNG về việc sử dụng từ khóa (keyword) khi tìm kiếm thông tin trên Internet?",
+    "options": [
+      "Nên dùng từ khóa chính, ngắn gọn, có liên quan trực tiếp đến nội dung cần tìm.",
+      "Nên dùng câu dài, đầy đủ chủ ngữ và vị ngữ.",
+      "Chỉ nên dùng các ký tự đặc biệt để tìm kiếm.",
+      "Nên dùng từ khóa không liên quan để mở rộng phạm vi tìm kiếm."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Từ khóa", "Tìm kiếm", "NB"]
+  },
+  {
+    "id": "q_cs_02_23",
+    "topicId": "topic_cs_02",
+    "subTopic": "Bài 10: TH khai thác tài nguyên trên Internet",
+    "stem": "Câu 3. [TH] Khi cần tìm kiếm các trang web có nội dung liên quan đến một chủ đề cụ thể (ví dụ: Tin học 10), cách đặt từ khóa nào sau đây sẽ cho kết quả chính xác nhất?",
+    "options": [
+      "\"Sách giáo khoa Tin học 10\"",
+      "Tìm kiếm Tin học lớp 10}",
+      "Sách giáo khoa Tin học 10",
+      "Sách giáo khoa Tin học 10 | sách"
+    ],
+    "answerIndices": [0],
+    "difficulty": "Medium",
+    "tags": ["Từ khóa chính xác", "Tìm kiếm", "TH"]
+  },
+  {
+    "id": "q_cs_02_24",
+    "topicId": "topic_cs_02",
+    "subTopic": "Bài 10: TH khai thác tài nguyên trên Internet",
+    "stem": "Câu 4. [NB] Giả sử em muốn tìm kiếm một bài viết về \"tuyển sinh 2025\" chỉ trên trang web chính thức của Bộ Giáo dục và Đào tạo (có địa chỉ moet.gov.vn). Từ khóa tìm kiếm nào sau đây là hiệu quả nhất?",
+    "options": [
+      "tuyển sinh 2025 site:moet.gov.vn",
+      "tuyển sinh 2025 site:moet.edu.vn",
+      "tuyển sinh 2025",
+      "tuyển sinh 2025 Bộ Giáo dục"
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Toán tử tìm kiếm", "site:", "NB"]
+  },
+  {
+    "id": "q_cs_02_25",
+    "topicId": "topic_cs_02",
+    "subTopic": "Bài 10: TH khai thác tài nguyên trên Internet",
+    "stem": "Câu 5[TH]. Trong địa chỉ trang web www.igiaoduc.vn, phần đuôi .vn có ý nghĩa là gì?",
+    "options": [
+      "Ký hiệu tên nước Việt Nam (Mã quốc gia).",
+      "Một kí hiệu bất kỳ không có ý nghĩa cụ thể.",
+      "Chữ viết tắt của một từ tiếng Anh.",
+      "Chỉ là một phần ngẫu nhiên của địa chỉ web."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Medium",
+    "tags": ["Tên miền", "Domain", "TH"]
+  },
+  {
+    "id": "q_cs_02_26",
+    "topicId": "topic_cs_02",
+    "subTopic": "Bài 10: TH khai thác tài nguyên trên Internet",
+    "stem": "Câu 6. [NB] Thư điện tử (Email) là dịch vụ cốt lõi của Internet, được sử dụng chủ yếu để làm gì?",
+    "options": [
+      "Gửi và nhận thư, tài liệu, hình ảnh giữa những người dùng khác nhau.",
+      "Tìm kiếm thông tin và dữ liệu.",
+      "Lưu trữ dữ liệu trực tuyến.",
+      "Trò chuyện trực tuyến (Chat) theo thời gian thực."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Email", "Dịch vụ Internet", "NB"]
+  },
+  {
+    "id": "q_cs_02_27",
+    "topicId": "topic_cs_02",
+    "subTopic": "Bài 10: TH khai thác tài nguyên trên Internet",
+    "stem": "Câu 7. [VD] Để mở hộp thư điện tử cá nhân (ví dụ: Gmail) và đọc thư, em cần thực hiện các bước nào sau đây?",
+    "options": [
+      "Truy cập trang web cung cấp dịch vụ thư điện tử, nhập tên tài khoản, nhập mật khẩu và nhấn Đăng nhập.",
+      "Nhập tên tài khoản, nhập mật khẩu, nhấn Đăng ký.",
+      "Nhập mật khẩu, nhập tên tài khoản, nhấn Đăng xuất.",
+      "Chỉ cần nhập tên tài khoản là có thể truy cập."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Hard",
+    "tags": ["Sử dụng Email", "Đăng nhập", "VD"]
+  },
+  {
+    "id": "q_cs_02_28",
+    "topicId": "topic_cs_02",
+    "subTopic": "Bài 10: TH khai thác tài nguyên trên Internet",
+    "stem": "Câu 8. [VD] Em nhận được một thư điện tử yêu cầu em cung cấp mật khẩu tài khoản ngân hàng để xác minh giao dịch. Hành động đúng đắn và an toàn nhất của em là gì?",
+    "options": [
+      "Báo cáo thư rác (Spam) hoặc lừa đảo (Phishing) và xóa thư đó ngay lập tức.",
+      "Nhanh chóng cung cấp mật khẩu để hoàn tất giao dịch.",
+      "Gửi lại thư hỏi người gửi là ai.",
+      "Chuyển tiếp thư cho tất cả bạn bè để cảnh báo."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Hard",
+    "tags": ["Phishing", "An toàn Email", "VD"]
+  },
   // =================================================================
   // Topic 3: Đạo đức, pháp luật và văn hóa trong môi trường số
   // =================================================================
