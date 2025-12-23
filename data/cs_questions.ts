@@ -1810,5 +1810,208 @@ export const MOCK_CS_QUESTIONS: Question[] = [
     "tags": ["Phép toán số học", "VD"]
   }
 
+    // =================================================================
+  // Topic CÂU HỎI ĐÚNG SAI
+  // =================================================================
+
+  {
+    "id": "q_tf_01",
+    "topicId": "topic_ĐÚNG_SAI",
+    "stem": "Câu 1: Khi quan sát đời sống xung quanh, An thấy rằng Tin học và các công nghệ số đang thay đổi mọi mặt của xã hội. Hãy xác định các phát biểu sau là ĐÚNG hay SAI về vai trò và ứng dụng của Tin học:",
+    "subQuestions": [
+      { "text": "Tin học đóng vai trò quan trọng trong việc tự động hóa các quy trình sản xuất và kinh doanh, giúp tăng năng suất lao động.", "correct": true },
+      { "text": "Trong lĩnh vực y tế, Tin học chỉ được ứng dụng để lưu trữ hồ sơ bệnh án, không có khả năng hỗ trợ chẩn đoán hay phẫu thuật từ xa.", "correct": false },
+      { "text": "Xử lí thông tin tự động là một trong những ứng dụng cốt lõi của Tin học, cho phép con người xử lí lượng dữ liệu khổng lồ nhanh chóng.", "correct": true },
+      { "text": "Việc ứng dụng Tin học trong đời sống xã hội không có mặt trái và luôn mang lại lợi ích tuyệt đối cho con người.", "correct": false }
+    ]
+  },
+  {
+    "id": "q_tf_02",
+    "topicId": "topic_ĐÚNG_SAI",
+    "stem": "Câu 2: Hãy xác định các phát biểu sau là ĐÚNG hay SAI về thành tựu và ứng dụng của Tin học/AI thông qua các ví dụ như xe tự lái và nhận dạng khuôn mặt:",
+    "subQuestions": [
+      { "text": "Một trong những thành tựu lớn nhất của Tin học là phát triển Trí tuệ nhân tạo (AI), giúp máy móc mô phỏng hành vi thông minh của con người.", "correct": true },
+      { "text": "Ứng dụng AI trong chẩn đoán hình ảnh y tế giúp bác sĩ phát hiện các dấu hiệu bệnh lý với độ chính xác và tốc độ vượt trội so với con người.", "correct": true },
+      { "text": "Công nghệ nhận dạng khuôn mặt chỉ là một thành tựu về phần cứng, không liên quan đến lĩnh vực Trí tuệ nhân tạo AI.", "correct": false },
+      { "text": "Khoa học máy tính chỉ tập trung vào việc tạo ra các thiết bị tính toán, không liên quan đến việc xây dựng các mô hình dữ liệu và thuật toán AI.", "correct": false }
+    ]
+  },
+  {
+    "id": "q_tf_03",
+    "topicId": "topic_ĐÚNG_SAI",
+    "stem": "Câu 3: Hãy xác định các phát biểu sau là ĐÚNG hay SAI về ứng dụng của Tin học trong Giáo dục:",
+    "subQuestions": [
+      { "text": "Tin học hỗ trợ tạo ra các học liệu điện tử đa phương tiện (video, mô phỏng 3D) giúp bài giảng trở nên trực quan hơn.", "correct": true },
+      { "text": "Các hệ thống quản lý học tập (LMS) có thể giúp giáo viên theo dõi tiến độ học tập và đánh giá tự động bài làm của học sinh.", "correct": true },
+      { "text": "Học trực tuyến qua các nền tảng Internet không thể cung cấp bất kỳ phản hồi hoặc sự tương tác nào giữa học sinh và giáo viên.", "correct": false },
+      { "text": "Tin học thúc đẩy mô hình học tập cá nhân hóa, cho phép học sinh học theo tốc độ và phong cách riêng của mình.", "correct": true }
+    ]
+  },
+  {
+    "id": "q_tf_04",
+    "topicId": "topic_ĐÚNG_SAI",
+    "stem": "Câu 4: Hãy xác định các phát biểu sau là ĐÚNG hay SAI về Internet Vạn Vật (IoT) trong bối cảnh hệ thống nhà thông minh (Smart Home):",
+    "subQuestions": [
+      { "text": "Internet Vạn Vật (IoT) là mạng lưới các thiết bị vật lý được nhúng cảm biến, phần mềm, và kết nối Internet để tự động trao đổi dữ liệu.", "correct": true },
+      { "text": "Trong hệ thống nhà thông minh, các thiết bị chỉ cần kết nối với nhau bằng dây cáp, không cần kết nối Internet.", "correct": false },
+      { "text": "IoT được ứng dụng rộng rãi trong các lĩnh vực như y tế thông minh, nông nghiệp thông minh và quản lý đô thị thông minh.", "correct": true },
+      { "text": "Camera thông minh có khả năng thu thập dữ liệu về môi trường, sau đó truyền lên mạng tự động xử lí và đưa ra cảnh báo.", "correct": true }
+    ]
+  },
+  {
+    "id": "q_tf_05",
+    "topicId": "topic_ĐÚNG_SAI",
+    "stem": "Câu 5: Hãy xác định các phát biểu sau là ĐÚNG hay SAI về nguyên tắc khai thác tài nguyên trên Internet dựa trên tình huống tìm kiếm thông tin của Minh:",
+    "subQuestions": [
+      { "text": "Để tìm kiếm chính xác, nên sử dụng từ khóa chính xác và các toán tử tìm kiếm nâng cao (như dấu ngoặc kép hoặc dấu trừ).", "correct": true },
+      { "text": "Việc chỉ tin tưởng thông tin ở trang đầu tiên và từ các bài đăng cá nhân trên mạng xã hội là không đáng tin cậy vì không đảm bảo tính xác thực.", "correct": true },
+      { "text": "Khi sử dụng thông tin từ Internet để làm bài báo cáo, không cần ghi nguồn nếu thông tin đó là kiến thức chung đã được công bố rộng rãi.", "correct": false },
+      { "text": "Tài nguyên học tập chính thức (như sách giáo khoa điện tử, thư viện số) thường là nguồn đáng tin cậy hơn thông tin không rõ nguồn gốc.", "correct": true }
+    ]
+  },
+  {
+    "id": "q_tf_06",
+    "topicId": "topic_ĐÚNG_SAI",
+    "stem": "Câu 6: Hãy xác định các phát biểu sau là ĐÚNG hay SAI về nguyên tắc đánh giá tài nguyên học liệu số:",
+    "subQuestions": [
+      { "text": "Nên ưu tiên sử dụng bài báo khoa học được công bố trên tạp chí điện tử của một trường Đại học danh tiếng, có trích dẫn rõ ràng.", "correct": true },
+      { "text": "Tiêu chí đánh giá tài nguyên học tập số chỉ cần dựa vào việc thông tin đó có mới nhất hay không, không cần quan tâm đến nguồn gốc.", "correct": false },
+      { "text": "Nếu các nguồn thông tin mâu thuẫn nhau, cần tìm thêm các nguồn khác để kiểm tra chéo và so sánh trước khi kết luận.", "correct": true },
+      { "text": "Sách giáo khoa điện tử, bài giảng từ các nền tảng giáo dục chính thức được coi là tài nguyên có độ tin cậy cao nhất.", "correct": true }
+    ]
+  },
+  {
+    "id": "q_tf_07",
+    "topicId": "topic_ĐÚNG_SAI",
+    "stem": "Câu 7: Dựa trên tình huống bạn Lan đăng bài xúc phạm người khác, hãy xác định tính ĐÚNG hay SAI của các nhận định về quy tắc ứng xử trên không gian số:",
+    "subQuestions": [
+      { "text": "Mọi cá nhân có quyền đăng bất cứ nội dung gì trên tài khoản cá nhân vì đó là quyền tự do ngôn luận tuyệt đối.", "correct": false },
+      { "text": "Hành động báo cáo nội dung vi phạm, xúc phạm người khác là hành động đúng đắn, thể hiện trách nhiệm công dân số.", "correct": true },
+      { "text": "Trong môi trường số, mỗi cá nhân phải chịu trách nhiệm về mọi lời nói và hành động của mình, kể cả trên tài khoản cá nhân.", "correct": true },
+      { "text": "Xúc phạm người khác trên mạng xã hội không bị coi là vi phạm pháp luật nếu không có ai khởi kiện.", "correct": false }
+    ]
+  },
+  {
+    "id": "q_tf_08",
+    "topicId": "topic_ĐÚNG_SAI",
+    "stem": "Câu 8: Hãy xác định các phát biểu sau là ĐÚNG hay SAI về quy tắc ứng xử an toàn trên mạng:",
+    "subQuestions": [
+      { "text": "Khuyến khích sử dụng tên thật khi đăng ký tài khoản để tăng tính xác thực và trách nhiệm khi giao tiếp.", "correct": true },
+      { "text": "Không đăng tải thông tin cá nhân của người khác (hình ảnh, địa chỉ) nếu chưa được sự đồng ý của họ.", "correct": true },
+      { "text": "Tham gia nhóm anti-fan và bình luận tiêu cực về người khác là hành vi an toàn vì mang tính chất giải trí.", "correct": false },
+      { "text": "Tham gia cộng đồng học tập và chia sẻ kinh nghiệm là cách sử dụng mạng xã hội hiệu quả và an toàn.", "correct": true }
+    ]
+  },
+  {
+    "id": "q_tf_09",
+    "topicId": "topic_ĐÚNG_SAI",
+    "stem": "Câu 9: Hãy xác định các phát biểu sau là ĐÚNG hay SAI về quy tắc ứng xử lành mạnh trên mạng xã hội:",
+    "subQuestions": [
+      { "text": "Nên đăng tải thông tin tích cực, quảng bá văn hóa con người Việt Nam để xây dựng môi trường mạng lành mạnh.", "correct": true },
+      { "text": "Nên dành nhiều thời gian (hơn 180 phút/ngày) để liên tục tương tác và chia sẻ mọi tin tức trên mạng.", "correct": false },
+      { "text": "Tham gia tranh luận gay gắt, bình luận tiêu cực trong nhóm là cách hiệu quả để bảo vệ quan điểm cá nhân.", "correct": false },
+      { "text": "Tham gia khóa học trực tuyến để rèn luyện kỹ năng là cách sử dụng mạng xã hội có trách nhiệm.", "correct": true }
+    ]
+  },
+  {
+    "id": "q_tf_10",
+    "topicId": "topic_ĐÚNG_SAI",
+    "stem": "Câu 10: Dựa trên tình huống An chia sẻ tin giả về 'bão mặt trời', hãy xác định tính ĐÚNG/SAI về trách nhiệm của công dân số:",
+    "subQuestions": [
+      { "text": "Việc lan truyền thông tin sai sự thật, gây hoang mang dư luận có thể bị xử lý theo quy định pháp luật về tung tin giả.", "correct": true },
+      { "text": "Vì chỉ chia sẻ trong nhóm kín nên hành vi này không gây ảnh hưởng và người dùng không cần chịu trách nhiệm.", "correct": false },
+      { "text": "Khi phát hiện đã lan truyền tin giả, cá nhân có trách nhiệm xóa bài, đính chính công khai và xin lỗi.", "correct": true },
+      { "text": "Trách nhiệm công dân số bao gồm việc không đăng tin giả và báo cáo những nội dung vi phạm pháp luật.", "correct": true }
+    ]
+  },
+  {
+    "id": "q_tf_11",
+    "topicId": "topic_ĐÚNG_SAI",
+    "stem": "Câu 11: Dựa trên tình huống Hoàng sử dụng phần mềm bẻ khóa (crack), hãy xác định các phát biểu sau là ĐÚNG hay SAI về bản quyền:",
+    "subQuestions": [
+      { "text": "Hành vi tải và sử dụng phần mềm bẻ khóa (lậu) là vi phạm pháp luật về bản quyền và văn hóa đạo đức số.", "correct": true },
+      { "text": "Nên sử dụng các phần mềm mã nguồn mở (Open Source) hoặc phần mềm có giấy phép hợp pháp để thay thế.", "correct": true },
+      { "text": "Chỉ hành vi sao chép và bán lại mới vi phạm bản quyền, việc tải về dùng cá nhân thì không vi phạm.", "correct": false },
+      { "text": "Pháp luật về Quyền sở hữu trí tuệ bảo vệ quyền của tác giả đối với sản phẩm số bao gồm phần mềm, sách điện tử và âm nhạc.", "correct": true }
+    ]
+  },
+  {
+    "id": "q_tf_12",
+    "topicId": "topic_ĐÚNG_SAI",
+    "stem": "Câu 12: Hãy xác định các phát biểu sau là ĐÚNG hay SAI về hành vi bắt nạt trên mạng (Cyberbullying):",
+    "subQuestions": [
+      { "text": "Hành vi xúc phạm, chế giễu người khác trên mạng là vi phạm đạo đức và văn hóa ứng xử trong môi trường số.", "correct": true },
+      { "text": "Sử dụng tài khoản ảo để xúc phạm người khác sẽ giúp cá nhân thoát khỏi mọi trách nhiệm pháp lý.", "correct": false },
+      { "text": "Khi tranh luận trên mạng, cần giữ thái độ tôn trọng, hòa nhã và tập trung vào lý lẽ thay vì tấn công cá nhân.", "correct": true },
+      { "text": "Hành vi xâm phạm danh dự, nhân phẩm của người khác trên mạng xã hội có thể bị xử lý theo quy định pháp luật.", "correct": true }
+    ]
+  },
+  {
+    "id": "q_tf_13",
+    "topicId": "topic_ĐÚNG_SAI",
+    "stem": "Câu 13: Hãy xác định các phát biểu sau là ĐÚNG hay SAI về hành vi xâm nhập trái phép tài khoản người khác:",
+    "subQuestions": [
+      { "text": "Hành vi truy cập trái phép, dù không gây thiệt hại cụ thể, vẫn bị coi là vi phạm pháp luật về an toàn thông tin mạng.", "correct": true },
+      { "text": "Nên sử dụng kiến thức lập trình để bảo vệ hệ thống, không phải để xâm nhập trái phép tài khoản người khác.", "correct": true },
+      { "text": "Xâm nhập tài khoản chỉ phạm pháp nếu có hành vi sao chép hoặc thay đổi dữ liệu bên trong.", "correct": false },
+      { "text": "Bảo mật thông tin cá nhân (mật khẩu mạnh) là trách nhiệm của mỗi người để phòng tránh bị xâm nhập.", "correct": true }
+    ]
+  },
+  {
+    "id": "q_tf_14",
+    "topicId": "topic_ĐÚNG_SAI",
+    "stem": "Câu 14: Hãy xác định các phát biểu sau là ĐÚNG hay SAI về kiến thức thiết kế đồ họa:",
+    "subQuestions": [
+      { "text": "Đồ họa điểm ảnh (Bitmap) được tạo thành từ các đối tượng toán học nên có thể phóng to vô hạn mà không giảm chất lượng.", "correct": false },
+      { "text": "Đồ họa véc-tơ được tạo thành từ các điểm ảnh (pixel) và sẽ bị vỡ nét khi phóng to.", "correct": false },
+      { "text": "Phần mềm đồ họa giúp tạo mới và chỉnh sửa hình ảnh, truyền tải thông điệp bằng hình thức trực quan.", "correct": true },
+      { "text": "Để thiết kế các yếu tố chính như logo, tiêu đề (cần phóng to/thu nhỏ), nên sử dụng phần mềm đồ họa véc-tơ.", "correct": true }
+    ]
+  },
+  {
+    "id": "q_tf_15",
+    "topicId": "topic_ĐÚNG_SAI",
+    "stem": "Câu 15: Hãy xác định các phát biểu sau là ĐÚNG hay SAI về ngôn ngữ lập trình bậc cao và Python:",
+    "subQuestions": [
+      { "text": "Ngôn ngữ lập trình bậc cao (như Python) gần với ngôn ngữ tự nhiên, phù hợp để viết chương trình máy tính.", "correct": true },
+      { "text": "Ngôn ngữ máy là ngôn ngữ duy nhất mà máy tính có thể trực tiếp hiểu và thực thi.", "correct": true },
+      { "text": "Chương trình dịch có nhiệm vụ chuyển đổi chương trình viết bằng ngôn ngữ máy thành ngôn ngữ bậc cao.", "correct": false },
+      { "text": "Python là ngôn ngữ biên dịch (Compiled Language), dịch toàn bộ chương trình một lần trước khi chạy.", "correct": false }
+    ]
+  },
+  {
+    "id": "q_tf_16",
+    "topicId": "topic_ĐÚNG_SAI",
+    "stem": "Câu 16: Hãy xác định các phát biểu sau là ĐÚNG hay SAI về đặc điểm của ngôn ngữ lập trình Python:",
+    "subQuestions": [
+      { "text": "Python là ngôn ngữ mã nguồn mở, có cộng đồng lớn và kho thư viện phong phú hỗ trợ nhiều lĩnh vực.", "correct": true },
+      { "text": "Python là ngôn ngữ đa mục đích (General-purpose) vì có thể ứng dụng trong Web, AI, Khoa học dữ liệu.", "correct": true },
+      { "text": "Python bắt buộc phải sử dụng dấu chấm phẩy (;) để kết thúc mỗi câu lệnh.", "correct": false },
+      { "text": "Python chỉ phù hợp để viết các chương trình rất đơn giản, không thể viết các ứng dụng lớn.", "correct": false }
+    ]
+  },
+  {
+    "id": "q_tf_17",
+    "topicId": "topic_ĐÚNG_SAI",
+    "stem": "Câu 17: Hãy xác định các phát biểu sau là ĐÚNG hay SAI về biến và kiểu dữ liệu trong Python:",
+    "subQuestions": [
+      { "text": "Biến là một vùng nhớ được đặt tên dùng để lưu trữ giá trị và giá trị đó có thể thay đổi trong quá trình thực thi.", "correct": true },
+      { "text": "Tên biến không được bắt đầu bằng số và Python không phân biệt chữ hoa chữ thường trong tên biến.", "correct": false },
+      { "text": "Cú pháp khai báo biến bằng câu lệnh gán đúng là sử dụng hai dấu bằng (==).", "correct": false },
+      { "text": "Tên biến nên được đặt có ý nghĩa và có thể gán đồng thời nhiều biến với một giá trị.", "correct": true }
+    ]
+  },
+  {
+    "id": "q_tf_18",
+    "topicId": "topic_ĐÚNG_SAI",
+    "stem": "Câu 18: Hãy xác định các phát biểu sau là ĐÚNG hay SAI về các phép toán số học trong Python:",
+    "subQuestions": [
+      { "text": "Thứ tự ưu tiên: lũy thừa cao nhất, sau đó đến /, *, //, % và cuối cùng là +, -.", "correct": true },
+      { "text": "Tất cả các phép toán bao gồm cả lũy thừa đều được thực hiện từ trái sang phải.", "correct": false },
+      { "text": "Biểu thức (4**2)**3 sẽ cho kết quả là 4096.", "correct": true },
+      { "text": "Kết quả cuối cùng của biểu thức g = 10 + 5 * 2 ** 2 / 4 là số nguyên 15.", "correct": false }
+    ]
+  }
+
 
 ]
