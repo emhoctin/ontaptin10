@@ -16,4 +16,14 @@ export const MOCK_CS_TOPICS: Topic[] = [
     name: 'Đạo đức, pháp luật và văn hóa trong môi trường số',
     description: 'Các quy tắc ứng xử, vấn đề bản quyền và an toàn thông tin khi tham gia không gian mạng.'
   }
+  {
+    "id": "topic_cs_04",
+    "name": "Thiết kế đồ họa",
+    "description": "Các kiến thức về thẩm mỹ, công cụ phần mềm và kỹ thuật tạo ra các sản phẩm hình ảnh, truyền thông thị giác."
+  },
+  {
+    "id": "topic_cs_05",
+    "name": "Lập trình với Python",
+    "description": "Làm quen với ngôn ngữ lập trình Python, tư duy giải thuật, các cấu trúc dữ liệu cơ bản và lập trình giải quyết vấn đề."
+  }
 ];
