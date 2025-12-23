@@ -4,44 +4,278 @@ export const MOCK_CS_QUESTIONS: Question[] = [
   // =================================================================
   // Topic 1: Máy tính và xã hội tri thức
   // =================================================================
-  { id: "q_cs_01_01", topicId: "topic_cs_01", stem: "Mối quan hệ giữa Bit và Byte được hiểu đúng là gì?", options: ["1 Byte=10 Bit", "1 Byte= 8 Bit", "1 Bit=8 Byte", "1 Byte=16 Bit"], answerIndices: [1], difficulty: "Easy", tags: ["Thông tin và dữ liệu", "Đơn vị đo"], explanation_prompt: "Giải thích quy ước 1 Byte bằng bao nhiêu Bit." },
-  { id: "q_cs_01_02", topicId: "topic_cs_01", stem: "Để chuyển đổi đơn vị đo lượng thông tin, phương án nào sau đây là ĐÚNG?", options: ["1MB = 1024 KB.", "1PB = 1024 GB.", "1ZB = 1024 PB.", "1Bit = 1024 B."], answerIndices: [0], difficulty: "Easy", tags: ["Thông tin và dữ liệu", "Đơn vị đo"], explanation_prompt: "Giải thích nguyên tắc quy đổi giữa các đơn vị lưu trữ thông tin." },
-  { id: "q_cs_01_03", topicId: "topic_cs_01", stem: "Nhận xét nào sau đây là ĐÚNG nhất về thiết bị số?", options: ["Thiết bị lưu trữ, truyền và xử lí dữ liệu số", "Thiết bị có thể thực hiện được các phép tính số học", "Thiết bị có thể xử lí thông tin", "Thiết bị dùng để lưu trữ dữ liệu"], answerIndices: [0], difficulty: "Easy", tags: ["Thiết bị số", "Khái niệm"], explanation_prompt: "Đưa ra định nghĩa đầy đủ nhất về thiết bị số." },
-  { id: "q_cs_01_04", topicId: "topic_cs_01", stem: "Một trong những tính năng nổi bật của thiết bị số là gì?", options: ["Có khả năng xử lý dữ liệu nhanh chóng.", "Chỉ có thể xử lý dữ liệu nhỏ.", "Chỉ có thể lưu trữ dữ liệu.", "Hoạt động mà không cần phần mềm."], answerIndices: [0], difficulty: "Easy", tags: ["Thiết bị số", "Tính năng"], explanation_prompt: "Nêu rõ ưu điểm cốt lõi của thiết bị số." },
-  { id: "q_cs_01_05", topicId: "topic_cs_01", stem: "Thiết bị nào dưới đây có khả năng lưu trữ dữ liệu với dung lượng lớn?", options: ["Thẻ nhớ", "Quạt điện", "Bút bi", "Giấy in"], answerIndices: [0], difficulty: "Easy", tags: ["Thiết bị số", "Lưu trữ"], explanation_prompt: "Giải thích chức năng của Thẻ nhớ so với các vật dụng khác." },
-  { id: "q_cs_01_06", topicId: "topic_cs_01", stem: "Trong tình huống giáo viên nhập điểm số của học sinh vào phần mềm để tính điểm trung bình, yếu tố nào sau đây là thông tin đầu ra?", options: ["Điểm số của từng bài kiểm tra.", "Giáo viên nhập điểm vào phần mềm.", "Chương trình tự động tính toán ra điểm trung bình.", "Kết quả điểm trung bình được hiển thị cho học sinh."], answerIndices: [3], difficulty: "Medium", tags: ["Xử lí thông tin", "Đầu vào - Đầu ra"], explanation_prompt: "Giải thích sự khác biệt giữa dữ liệu đầu vào, quá trình xử lý, và thông tin đầu ra." },
-  { id: "q_cs_01_07", topicId: "topic_cs_01", stem: "Việc quét mã vạch của nhân viên thu tiền ở bách hóa xanh là hoạt động nào sau đây trong quá trình xử lí thông tin?", options: ["Thu thập", "Lưu trữ", "Xử lý", "Truyền"], answerIndices: [0], difficulty: "Medium", tags: ["Xử lí thông tin", "Thu thập dữ liệu"], explanation_prompt: "Giải thích vai trò của việc quét mã vạch trong quy trình xử lí thông tin." },
-  { id: "q_cs_01_08", topicId: "topic_cs_01", stem: "Một bạn học sinh gõ văn bản, chèn hình ảnh và lưu lại thành tệp .docx. Hoạt động lưu lại tệp thuộc giai đoạn nào trong quá trình xử lí thông tin?", options: ["Thu thập dữ liệu.", "Xử lý dữ liệu.", "Lưu trữ thông tin.", "Truyền thông tin."], answerIndices: [2], difficulty: "Medium", tags: ["Xử lí thông tin", "Lưu trữ"], explanation_prompt: "Xác định vị trí của hoạt động lưu trữ trong 4 giai đoạn cơ bản của xử lí thông tin." },
-  { id: "q_cs_01_09", topicId: "topic_cs_01", stem: "Một tệp tin có dung lượng 5 MB. Hỏi tệp tin này có kích thước tương đương bao nhiêu KB?", options: ["5000 KB", "5200 KB", "5120 KB", "4096 KB"], answerIndices: [2], difficulty: "Hard", tags: ["Đơn vị đo", "Tính toán"], explanation_prompt: "Trình bày cách tính 5 MB ra KB dựa trên quy tắc 1 MB = 1024 KB." },
-  { id: "q_cs_01_10", topicId: "topic_cs_01", stem: "Một ổ đĩa cứng có dung lượng 2 TB. Quy đổi ra GB ta được:", options: ["1024 GB", "2048 GB", "4096 GB", "512 GB"], answerIndices: [1], difficulty: "Hard", tags: ["Đơn vị đo", "Tính toán"], explanation_prompt: "Trình bày cách tính 2 TB ra GB dựa trên quy tắc 1 TB = 1024 GB." },
-  { id: "q_cs_01_11", topicId: "topic_cs_01", stem: "Bạn An có các ý kiến sau về thông tin và dữ liệu. Hãy chọn các ý kiến ĐÚNG:", options: ["Dữ liệu là thông tin (văn bản, hình ảnh, âm thanh…) đã được đưa vào máy tính để máy tính nhận biết và xử lý được.", "Thông tin là tất cả những gì mang lại cho chúng ta hiểu biết.", "Một thông tin nhưng có nhiều cách thể hiện dữ liệu khác nhau.", "Tất cả những thông tin của con người đều có thể đưa vào máy tính để xử lí."], answerIndices: [0, 1, 2], difficulty: "Easy", tags: ["Thông tin và dữ liệu", "Phân biệt", "Multiple"], explanation_prompt: "Giải thích mối quan hệ và sự khác biệt giữa Thông tin và Dữ liệu." },
-  { id: "q_cs_01_12", topicId: "topic_cs_01", stem: "Trong một buổi học trực tuyến, giáo viên và học sinh đều sử dụng máy tính hoặc điện thoại thông minh để tham gia lớp học. Hãy chọn các nhận định ĐÚNG:", options: ["Đây là minh chứng cho khả năng kết nối và chia sẻ thông tin nhanh chóng của thiết bị số.", "Các thiết bị số chỉ hỗ trợ việc học tập khi có kết nối Internet.", "Thiết bị số giúp tiết kiệm chi phí đi lại và tăng tính linh hoạt trong học tập.", "Thiết bị số hoàn toàn có thể thay thế giáo viên trong quá trình giảng dạy."], answerIndices: [0, 2], difficulty: "Medium", tags: ["Thiết bị số", "Ứng dụng giáo dục", "Multiple"], explanation_prompt: "Nêu các lợi ích thực tế của việc sử dụng thiết bị số trong học tập trực tuyến." },
-  { id: "q_cs_01_13", topicId: "topic_cs_01", stem: "Trong lĩnh vực y tế, các thiết bị số như máy đo nhịp tim, hệ thống quản lý bệnh án điện tử được sử dụng rộng rãi. Hãy chọn các nhận định ĐÚNG:", options: ["Đây là ví dụ cho việc ứng dụng xử lý thông tin để chăm sóc sức khỏe tốt hơn.", "Các thiết bị y tế số có thể xử lý và phân tích dữ liệu bệnh nhân nhanh chóng.", "Các thiết bị này không cần đảm bảo an toàn, bảo mật thông tin cá nhân.", "Thiết bị số trong y tế giúp bác sĩ đưa ra chẩn đoán chính xác hơn."], answerIndices: [0, 1, 3], difficulty: "Hard", tags: ["Thiết bị số", "Ứng dụng y tế", "Multiple"], explanation_prompt: "Phân tích vai trò và ảnh hưởng của thiết bị số trong việc nâng cao chất lượng y tế." },
-  { id: "q_cs_01_14", topicId: "topic_cs_01", stem: "Trong các hệ thống trí tuệ nhân tạo (AI) và học máy (Machine Learning), ngôn ngữ lập trình nào dưới đây được ưa chuộng nhất nhờ thư viện phong phú và dễ học?", options: ["Python", "Pascal", "Ngôn ngữ máy", "Ngôn ngữ hợp ngữ"], answerIndices: [0], difficulty: "Easy", tags: ["Hệ thống máy tính", "AI", "Ngôn ngữ lập trình"], explanation_prompt: "Giải thích lý do Python phổ biến trong lĩnh vực AI/Machine Learning." },
-  { id: "q_cs_01_15", topicId: "topic_cs_01", stem: "Phát biểu nào sau đây là ĐÚNG về thiết bị thông minh?", options: ["Là thiết bị điện tử có thể hoạt động tự chủ, tự thích ứng với hoàn cảnh và kết nối với thiết bị khác để trao đổi dữ liệu.", "Là thiết bị điện tử chỉ có thể kết nối với thiết bị khác qua mạng Internet.", "Là thiết bị làm việc với thông tin số như lưu trữ, truyền dữ liệu hay xử lí thông tin.", "Là thiết bị số tích hợp một số chức năng phục vụ cuộc sống hàng ngày."], answerIndices: [0], difficulty: "Easy", tags: ["Thiết bị thông minh", "Khái niệm"], explanation_prompt: "Đưa ra định nghĩa đầy đủ nhất về đặc trưng của thiết bị thông minh." },
-  { id: "q_cs_01_16", topicId: "topic_cs_01", stem: "Thiết bị đeo tay để theo dõi số bước chân, nhịp tim và lượng calo tiêu thụ mỗi ngày là loại thiết bị thông minh nào sau đây?", options: ["Đồng hồ thông minh", "Camera an ninh", "Robot hút bụi, lau nhà", "Tivi thông minh điều khiển bằng giọng nói"], answerIndices: [0], difficulty: "Easy", tags: ["Thiết bị thông minh", "Ví dụ"], explanation_prompt: "Xác định loại thiết bị thông minh được sử dụng phổ biến trong chăm sóc sức khỏe cá nhân." },
-  { id: "q_cs_01_17", topicId: "topic_cs_01", stem: "Hệ thống camera giao thông có khả năng phát hiện và ghi hình phương tiện vi phạm là thiết bị thông minh có khả năng gì?", options: ["Nhận dạng hình ảnh", "Tự chiếu sáng", "Tưới nước tự động", "Đo nhịp tim, thân nhiệt"], answerIndices: [0], difficulty: "Easy", tags: ["Thiết bị thông minh", "AI", "Xử lí hình ảnh"], explanation_prompt: "Nêu rõ công nghệ cốt lõi giúp camera giao thông thực hiện chức năng giám sát." },
-  { id: "q_cs_01_18", topicId: "topic_cs_01", stem: "Đặc trưng nổi bật nhất của cuộc cách mạng công nghiệp lần thứ tư là gì?", options: ["Hệ thống IoT và các hệ thống kết hợp thực – ảo trở nên phổ biến", "Chuyển từ lao động thủ công sang cơ giới với dấu ấn là động cơ hơi nước", "Công nghiệp phát triển, điện năng được dùng phổ biến, sản xuất dây chuyền tập trung", "Máy tính hỗ trợ con người trong các hoạt động trí tuệ, tin học làm thay đổi cuộc sống"], answerIndices: [0], difficulty: "Easy", tags: ["Cách mạng 4.0", "Đặc trưng"], explanation_prompt: "Giải thích tầm quan trọng của IoT và hệ thống thực-ảo trong Cách mạng 4.0." },
-  { id: "q_cs_01_19", topicId: "topic_cs_01", stem: "Việc ứng dụng thiết bị thông minh (robot, cảm biến, AI) trong dây chuyền sản xuất có ảnh hưởng như thế nào?", options: ["Tăng cường hiệu suất và giảm chi phí", "Chỉ đơn thuần thay thế lao động thủ công", "Giảm độ chính xác trong sản xuất", "Không ảnh hưởng đến quy trình sản xuất"], answerIndices: [0], difficulty: "Medium", tags: ["Ứng dụng công nghiệp", "Lợi ích"], explanation_prompt: "Nêu rõ lợi ích kinh tế và kỹ thuật của việc tự động hóa sản xuất." },
-  { id: "q_cs_01_20", topicId: "topic_cs_01", stem: "Robot được sử dụng để làm việc ở môi trường có hóa chất độc hại mà con người khó tiếp cận là ví dụ về đóng góp của tin học trong lĩnh vực nào?", options: ["Tự động hóa", "Giải quyết các bài toán khoa học – kĩ thuật", "Quản lí", "Giao tiếp cộng đồng"], answerIndices: [0], difficulty: "Medium", tags: ["Ứng dụng thực tế", "Tự động hóa"], explanation_prompt: "Giải thích mục đích sử dụng robot trong môi trường nguy hiểm thuộc lĩnh vực Tự động hóa." },
-  { id: "q_cs_01_21", topicId: "topic_cs_01", stem: "Công nghệ trí tuệ nhân tạo giúp con người mở khóa điện thoại bằng khuôn mặt hoặc điều khiển thiết bị bằng giọng nói là ví dụ về ứng dụng công nghệ thông tin trong lĩnh vực nào?", options: ["Nhận dạng khuôn mặt, nhận dạng giọng nói", "Phóng vệ tinh", "Dạy học trực tuyến", "Ứng dụng văn phòng"], answerIndices: [0], difficulty: "Medium", tags: ["AI", "Ứng dụng"], explanation_prompt: "Giải thích ứng dụng của AI trong nhận dạng." },
-  { id: "q_cs_01_22", topicId: "topic_cs_01", stem: "Hệ thống đèn giao thông thông minh tự điều chỉnh thời gian đèn đỏ, đèn xanh dựa trên lưu lượng phương tiện có ảnh hưởng như thế nào trong đời sống?", options: ["Giảm ùn tắc và nâng cao hiệu quả quản lý giao thông", "Tăng lượng phương tiện tham gia giao thông", "Gây rối loạn tín hiệu và kém an toàn", "Làm tăng tiêu thụ điện năng"], answerIndices: [0], difficulty: "Hard", tags: ["Smart City", "AI"], explanation_prompt: "Phân tích lợi ích của hệ thống giao thông thông minh." },
-  { id: "q_cs_01_23", topicId: "topic_cs_01", stem: "Khi nhiệt độ phòng tăng cao, hệ thống điều hòa trong nhà thông minh tự động bật và điều chỉnh nhiệt độ xuống mức cài đặt sẵn. Ứng dụng này minh họa cho đặc trưng nào của thiết bị thông minh?", options: ["Có khả năng hoạt động tự chủ và tự điều chỉnh hoạt động theo môi trường xung quanh.", "Có khả năng điều khiển thiết bị.", "Có khả năng thu thập dữ liệu môi trường để lưu trữ và báo cáo.", "Có khả năng lập lịch hoạt động theo thời gian định sẵn."], answerIndices: [0], difficulty: "Hard", tags: ["Smart Home", "Thiết bị thông minh"], explanation_prompt: "Giải thích đặc tính tự chủ và thích ứng của thiết bị thông minh." },
-  { id: "q_cs_01_24", topicId: "topic_cs_01", stem: "Vai trò của ứng dụng thiết bị thông minh (điểm danh bằng khuôn mặt, lớp học thông minh) trong lĩnh vực giáo dục là gì?", options: ["Hỗ trợ quản lý học sinh và nâng cao hiệu quả dạy và học", "Thay thế hoàn toàn giáo viên trong giảng dạy", "Làm giảm sự tương tác giữa học sinh và thầy cô", "Chỉ có tác dụng trong giờ ra chơi"], answerIndices: [0], difficulty: "Hard", tags: ["Giáo dục", "Ứng dụng"], explanation_prompt: "Nêu vai trò của công nghệ trong việc hiện đại hóa giáo dục." },
-  { id: "q_cs_01_25", topicId: "topic_cs_01", stem: "Lợi ích chính của việc sử dụng thiết bị y tế thông minh để đo nhịp tim, huyết áp và gửi dữ liệu trực tiếp cho bác sĩ qua mạng là gì?", options: ["Giúp theo dõi sức khỏe từ xa và phát hiện sớm bất thường", "Tăng chi phí điều trị cho bệnh nhân", "Làm giảm chất lượng dịch vụ y tế", "Chỉ phục vụ mục đích nghiên cứu, không áp dụng thực tế"], answerIndices: [0], difficulty: "Hard", tags: ["Y tế", "Ứng dụng"], explanation_prompt: "Phân tích lợi ích của việc theo dõi sức khỏe từ xa." },
-  { id: "q_cs_01_26", topicId: "topic_cs_01", stem: "Một nông dân sử dụng hệ thống cảm biến để theo dõi độ ẩm đất và tự động bật hệ thống tưới tiêu khi cần thiết. Hãy chọn các nhận định ĐÚNG:", options: ["Nông dân đang áp dụng Tin học trong lĩnh vực Công nghiệp.", "Hệ thống cảm biến và tưới tiêu tự động là một ví dụ của Kết nối vạn vật (IoT).", "Ứng dụng này giúp tối ưu hóa việc sử dụng tài nguyên (nước, điện) và tăng năng suất.", "Ứng dụng này chỉ mang lại lợi ích về mặt giải trí."], answerIndices: [1, 2], difficulty: "Medium", tags: ["IoT", "Nông nghiệp thông minh", "Multiple"], explanation_prompt: "Giải thích ứng dụng IoT trong nông nghiệp." },
-  { id: "q_cs_01_27", topicId: "topic_cs_01", stem: "Trong bối cảnh Cách mạng công nghiệp lần thứ tư (4.0), nhiều nhà máy đã ứng dụng các hệ thống thiết bị thông minh để điều khiển, giám sát và tối ưu hóa sản xuất. Xét các phát biểu sau đây:", options: ["Việc sử dụng thiết bị thông minh giúp tăng năng suất và giảm chi phí sản xuất.", "Các thiết bị thông minh chỉ đơn thuần thay thế hoàn toàn con người trong lao động.", "Thiết bị thông minh giúp cải thiện độ chính xác và chất lượng sản phẩm.", "Việc áp dụng thiết bị thông minh không ảnh hưởng đến quy trình sản xuất."], answerIndices: [0, 2], difficulty: "Medium", tags: ["Cách mạng 4.0", "Sản xuất thông minh", "Multiple"], explanation_prompt: "Phân tích tác động của tự động hóa trong sản xuất." },
-  { id: "q_cs_01_28", topicId: "topic_cs_01", stem: "Trong lĩnh vực giáo dục, việc ứng dụng các nền tảng học trực tuyến và bài giảng số ngày càng phổ biến. Xét các phát biểu sau:", options: ["Các công cụ trực tuyến hỗ trợ giáo viên quản lý, giảng dạy và đánh giá học sinh hiệu quả hơn.", "Học sinh có thể học mọi lúc, mọi nơi và theo tiến độ riêng của bản thân, linh hoạt về thời gian.", "Ứng dụng các nền tảng học tập trực tuyến có thể thay thế hoàn toàn phương thức học truyền thống.", "Sự phát triển của Internet và các nền tảng học trực tuyến đã biến Internet thành một kho dữ liệu và tri thức khổng lồ, phục vụ học tập suốt đời."], answerIndices: [0, 1, 3], difficulty: "Hard", tags: ["Giáo dục trực tuyến", "Lợi ích", "Multiple"], explanation_prompt: "Phân tích ưu điểm và vai trò của học tập trực tuyến." },
-  { id: "q_cs_01_29", topicId: "topic_cs_01", stem: "Vai trò và chức năng nào sau đây là ĐÚNG về thiết bị số cá nhân (PDA) hiện đại như điện thoại thông minh và máy tính bảng?", options: ["Điều khiển các dây chuyền sản xuất công nghiệp và robot.", "Hỗ trợ người dùng trong các công việc thường ngày, tra cứu thông tin và giải trí.", "Phân tích dữ liệu lớn (Big Data) và ra quyết định kinh doanh chuyên sâu.", "Lưu trữ và xử lý dữ liệu số cá nhân, có khả năng kết nối mạng."], answerIndices: [1, 3], difficulty: "Medium", tags: ["PDA", "Thiết bị số"], explanation_prompt: "Nêu vai trò của PDA hiện đại." },
-  { id: "q_cs_01_30", topicId: "topic_cs_01", stem: "Đặc điểm nào là ĐÚNG về việc tải và cài đặt ứng dụng trên điện thoại thông minh chạy hệ điều hành Android hoặc iOS?", options: ["Chỉ nên tải ứng dụng từ các cửa hàng chính thức (App Store, CH Play) để đảm bảo an toàn.", "Tải file cài đặt (APK, IPA) từ các trang web lạ để có nhiều ứng dụng miễn phí hơn là phương pháp an toàn.", "Cần xem xét kỹ lưỡng các quyền truy cập mà ứng dụng yêu cầu trước khi đồng ý cài đặt.", "Các ứng dụng miễn phí luôn an toàn và không cần phải lo lắng về vấn đề bảo mật."], answerIndices: [0, 2], difficulty: "Medium", tags: ["An toàn và bảo mật", "Cài đặt ứng dụng"], explanation_prompt: "Giải thích các quy tắc an toàn khi tải và cài đặt ứng dụng." },
-  { id: "q_cs_01_31", topicId: "topic_cs_01", stem: "Khi tham gia các buổi học trực tuyến (ví dụ: qua Zoom, Google Meet), các thiết bị số như Điện thoại thông minh và Máy tính bảng mang lại những lợi ích đáng kể nào?", options: ["Giúp học sinh linh hoạt về địa điểm học, có thể học ở nhà, thư viện, hoặc bất cứ đâu có kết nối mạng.", "Cho phép tương tác trực tiếp bằng âm thanh và hình ảnh (camera, microphone) với giáo viên và bạn bè.", "Buộc học sinh phải học theo tốc độ chung của lớp, không thể xem lại bài giảng.", "Có thể truy cập tài liệu, ghi chú hoặc tìm kiếm thông tin ngay lập tức trên thiết bị."], answerIndices: [0, 1, 3], difficulty: "Medium", tags: ["Ứng dụng trong giáo dục", "Học trực tuyến"], explanation_prompt: "Nêu các lợi ích thực tế của việc sử dụng thiết bị số trong học tập trực tuyến." },
-  { id: "q_cs_01_32", topicId: "topic_cs_01", stem: "Các thiết bị nào sau đây được xem là thuộc nhóm thiết bị số cá nhân (PDA) hoặc các thiết bị số thông dụng hỗ trợ cá nhân?", options: ["Máy chủ (Server) chứa dữ liệu của một doanh nghiệp.", "Đồng hồ thông minh (Smartwatch) theo dõi sức khỏe và hiển thị thông báo.", "Máy tính bảng (Tablet) dùng để đọc sách và xem phim.", "Camera giám sát an ninh cố định tại các nút giao thông."], answerIndices: [1, 2], difficulty: "Easy", tags: ["Phân loại thiết bị số", "PDA"], explanation_prompt: "Xác định các thiết bị số cá nhân thông dụng." },
-  { id: "q_cs_01_33", topicId: "topic_cs_01", stem: "Những thao tác nào nên được thực hiện để bảo vệ thiết bị số cá nhân (điện thoại, máy tính bảng) khỏi các rủi ro về điện và phần mềm?", options: ["Chỉ sử dụng bộ sạc và cáp sạc chính hãng hoặc có chất lượng tốt, nguồn gốc rõ ràng.", "Cập nhật hệ điều hành và các ứng dụng thường xuyên khi có phiên bản mới.", "Vệ sinh màn hình bằng các dung dịch tẩy rửa mạnh hoặc cồn y tế để đảm bảo sạch khuẩn.", "Không nên cài đặt bất kỳ phần mềm bảo mật hay diệt virus nào vì chúng làm chậm máy."], answerIndices: [0, 1], difficulty: "Hard", tags: ["Bảo trì và bảo mật", "An toàn thiết bị"], explanation_prompt: "Nêu các biện pháp bảo vệ vật lý và phần mềm cho thiết bị số." },
-  { id: "q_cs_01_34", topicId: "topic_cs_01", stem: "Những rủi ro bảo mật nào có thể xảy ra khi người dùng cấp quá nhiều quyền truy cập (như Microphone, Vị trí, Danh bạ) cho các ứng dụng không cần thiết?", options: ["Ứng dụng có thể ghi âm lén cuộc hội thoại của bạn thông qua quyền truy cập Microphone.", "Dữ liệu cá nhân nhạy cảm như danh bạ và vị trí hiện tại của bạn có thể bị rò rỉ.", "Thiết bị của bạn sẽ tự động sạc chậm hơn và dễ bị chai pin.", "Ứng dụng có thể truy cập, chỉnh sửa hoặc xóa ảnh/tệp của bạn nếu được cấp quyền Bộ nhớ."], answerIndices: [0, 1, 3], difficulty: "Hard", tags: ["Cấp quyền ứng dụng", "Bảo mật"], explanation_prompt: "Phân tích các rủi ro khi cấp quyền không cần thiết cho ứng dụng." },
-  { id: "q_cs_01_35", topicId: "topic_cs_01", stem: "Điện thoại thông minh và máy tính bảng có thể truy cập Internet bằng những công nghệ kết nối nào?", options: ["Mạng di động không dây (3G, 4G, 5G) thông qua thẻ SIM.", "Kết nối Wi-Fi (WLAN) với các điểm truy cập không dây.", "Kết nối trực tiếp qua cổng Ethernet (LAN) bằng dây cáp.", "Công nghệ Bluetooth."], answerIndices: [0, 1], difficulty: "Easy", tags: ["Kết nối mạng", "Internet"], explanation_prompt: "Liệt kê các phương thức kết nối Internet phổ biến trên thiết bị di động." },
-  { id: "q_cs_01_36", topicId: "topic_cs_01", stem: "Trong một hệ thống nhà thông minh (Smart Home), điện thoại thông minh thường thực hiện những vai trò nào sau đây?", options: ["Đóng vai trò là trung tâm điều khiển từ xa để bật/tắt, thay đổi cài đặt các thiết bị thông minh (đèn, máy lạnh...).", "Là thiết bị duy nhất có thể lập trình các kịch bản tự động hóa cho ngôi nhà.", "Là nơi nhận các thông báo và cảnh báo quan trọng từ hệ thống (ví dụ: cảnh báo an ninh, khói).", "Thường xuyên được dùng để phân tích dữ liệu chuyên sâu về tiêu thụ năng lượng."], answerIndices: [0, 2], difficulty: "Medium", tags: ["Ứng dụng thực tế", "Smart Home"], explanation_prompt: "Giải thích vai trò của điện thoại thông minh trong hệ sinh thái nhà thông minh." },
-  { id: "q_cs_01_37", topicId: "topic_cs_01", stem: "Phát biểu nào sau đây là KHÔNG ĐÚNG về trợ thủ số cá nhân (PDA) và sự phát triển của nó?", options: ["PDA ban đầu chủ yếu có chức năng quản lý thông tin cá nhân (lịch, danh bạ) và không có khả năng kết nối Internet.", "PDA hiện đại đã phát triển thành các thiết bị đa năng như Smartphone, tích hợp cả liên lạc và xử lý thông tin.", "Tất cả các thiết bị PDA đều bắt buộc phải có màn hình cảm ứng để hoạt động.", "Thuật ngữ PDA chỉ dùng để chỉ phần mềm hỗ trợ người dùng, không phải là thiết bị vật lý."], answerIndices: [2, 3], difficulty: "Medium", tags: ["PDA", "Khái niệm"], explanation_prompt: "Giải thích các phát biểu sai về PDA." },
   
+  {
+    "id": "q_cs_01_11",
+    "topicId": "topic_cs_01",
+    "subTopic": "Bài 1: Thông tin và xử lý thông tin",
+    "stem": "Câu 1 [NB]. Để chuyển đổi đơn vị đo lượng thông tin., phương án nào sau đây là ĐÚNG?",
+    "options": [
+      "1MB = 1024KB.",
+      "1PB = 1024 GB.",
+      "1ZB = 1024PB.",
+      "1Bit = 1024B."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Thông tin và xử lý thông tin", "NB"]
+  },
+  {
+    "id": "q_cs_01_12",
+    "topicId": "topic_cs_01",
+    "subTopic": "Bài 1: Thông tin và xử lý thông tin",
+    "stem": "Câu 2. [NB] Nhận xét nào sau đây là ĐÚNG nhất về thiết bị số?",
+    "options": [
+      "Thiết bị lưu trữ, truyền và xử lí dữ liệu số",
+      "Thiết bị có thể thực hiện được các phép tính số học",
+      "Thiết bị có thể xử lí thông tin",
+      "Thiết bị dùng để lưu trữ dữ liệu"
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Thông tin và xử lý thông tin", "NB"]
+  },
+  {
+    "id": "q_cs_01_13",
+    "topicId": "topic_cs_01",
+    "subTopic": "Bài 1: Thông tin và xử lý thông tin",
+    "stem": "Câu 3. [NB] Một trong những tính năng nổi bật của thiết bị số là gì?",
+    "options": [
+      "Có khả năng xử lý dữ liệu nhanh chóng.",
+      "Không thể kết nối Internet.",
+      "Chỉ có thể xử lý dữ liệu nhỏ.",
+      "Chỉ phục vụ cho mục đích giải trí."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Thông tin và xử lý thông tin", "NB"]
+  },
+  {
+    "id": "q_cs_01_14",
+    "topicId": "topic_cs_01",
+    "subTopic": "Bài 1: Thông tin và xử lý thông tin",
+    "stem": "Câu 4. [TH] Tìm hiểu xem việc quét mã vạch của nhân viên thu tiền ở bách hóa xanh là hoạt động nào sau đây trong quá trình xử lí thông tin?",
+    "options": [
+      "Thu thập",
+      "Lưu trữ",
+      "Xử lý",
+      "Truyền"
+    ],
+    "answerIndices": [0],
+    "difficulty": "Medium",
+    "tags": ["Thông tin và xử lý thông tin", "TH"]
+  },
+  {
+    "id": "q_cs_01_15",
+    "topicId": "topic_cs_01",
+    "subTopic": "Bài 1: Thông tin và xử lý thông tin",
+    "stem": "Câu 5[VD]. Một tệp tin có dung lượng 5 MB. Hỏi tệp tin này có kích thước tương đương bao nhiêu KB?",
+    "options": [
+      "5000 KB",
+      "5200 KB",
+      "5120 KB",
+      "4096 KB"
+    ],
+    "answerIndices": [2],
+    "difficulty": "Hard",
+    "tags": ["Thông tin và xử lý thông tin", "VD"]
+  },
+  {
+    "id": "q_cs_01_16",
+    "topicId": "topic_cs_01",
+    "subTopic": "Bài 1: Thông tin và xử lý thông tin",
+    "stem": "Câu 6 [VD]. Một ổ đĩa cứng có dung lượng 2 TB. Quy đổi ra GB ta được:",
+    "options": [
+      "1024 GB",
+      "2048 GB",
+      "4096 GB",
+      "512 GB"
+    ],
+    "answerIndices": [1],
+    "difficulty": "Hard",
+    "tags": ["Thông tin và xử lý thông tin", "VD"]
+  },
+  {
+    "id": "q_cs_01_17",
+    "topicId": "topic_cs_01",
+    "subTopic": "Bài 2: Thông tin và xử lý thông tin",
+    "stem": "Câu 1 [NB]. Nhiều thiết bị trong gia đình như tivi, máy điều hòa, loa thông minh có thể tự động điều chỉnh theo thói quen người dùng và kết nối Internet để cập nhật dữ liệu. Phát biểu nào sau đây là ĐÚNG về thiết bị thông minh?",
+    "options": [
+      "Là thiết bị điện tử có thể hoạt động tự chủ, tự thích ứng với hoàn cảnh và kết nối với thiết bị khác để trao đổi dữ liệu.",
+      "Là thiết bị điện tử chỉ có thể kết nối với thiết bị khác qua mạng Internet.",
+      "Là thiết bị làm việc với thông tin số như lưu trữ, truyền dữ liệu hay xử lí thông tin.",
+      "Là thiết bị số tích hợp một số chức năng phục vụ cuộc sống hàng ngày."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Thiết bị thông minh", "NB"]
+  },
+  {
+    "id": "q_cs_01_18",
+    "topicId": "topic_cs_01",
+    "subTopic": "Bài 2: Thông tin và xử lý thông tin",
+    "stem": "Câu 2 [NB]. Lan là người yêu thích thể thao. Cô thường sử dụng một thiết bị đeo tay để theo dõi số bước chân, nhịp tim và lượng calo tiêu thụ mỗi ngày. Thiết bị mà Lan đang sử dụng là loại nào sau đây?",
+    "options": [
+      "Đồng hồ thông minh",
+      "Camera an ninh",
+      "Robot hút bụi, lau nhà",
+      "Tivi thông minh điều khiển bằng giọng nói"
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Thiết bị thông minh", "NB"]
+  },
+  {
+    "id": "q_cs_01_19",
+    "topicId": "topic_cs_01",
+    "subTopic": "Bài 2: Thông tin và xử lý thông tin",
+    "stem": "Câu 3 [NB]. Cuộc cách mạng công nghiệp lần thứ tư đang tác động mạnh mẽ đến mọi lĩnh vực đời sống. Đặc trưng nổi bật nhất của cuộc cách mạng công nghiệp này là gì?",
+    "options": [
+      "Hệ thống IoT và các hệ thống kết hợp thực – ảo trở nên phổ biến",
+      "Chuyển từ lao động thủ công sang cơ giới với dấu ấn là động cơ hơi nước",
+      "Công nghiệp phát triển, điện năng được dùng phổ biến, sản xuất dây chuyền tập trung",
+      "Máy tính hỗ trợ con người trong các hoạt động trí tuệ, tin học làm thay đổi cuộc sống"
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Cách mạng 4.0", "NB"]
+  },
+  {
+    "id": "q_cs_01_20",
+    "topicId": "topic_cs_01",
+    "subTopic": "Bài 2: Thông tin và xử lý thông tin",
+    "stem": "Câu 4 [TH]. Các công nghệ trí tuệ nhân tạo ngày nay có thể giúp con người mở khóa điện thoại bằng khuôn mặt hoặc điều khiển thiết bị bằng giọng nói. Đây là ví dụ về ứng dụng công nghệ thông tin trong lĩnh vực nào?",
+    "options": [
+      "Nhận dạng khuôn mặt, nhận dạng giọng nói",
+      "Phóng vệ tinh",
+      "Dạy học trực tuyến",
+      "Ứng dụng văn phòng"
+    ],
+    "answerIndices": [0],
+    "difficulty": "Medium",
+    "tags": ["AI", "TH"]
+  },
+  {
+    "id": "q_cs_01_21",
+    "topicId": "topic_cs_01",
+    "subTopic": "Bài 2: Thông tin và xử lý thông tin",
+    "stem": "Câu 5 [VD]. Trong các thành phố lớn, hệ thống đèn giao thông thông minh có thể tự điều chỉnh thời gian đèn đỏ, đèn xanh dựa trên lưu lượng phương tiện tại mỗi giao lộ. Ứng dụng này có ảnh hưởng như thế nào trong đời sống?",
+    "options": [
+      "Giảm ùn tắc và nâng cao hiệu quả quản lý giao thông",
+      "Gây rối loạn tín hiệu và kém an toàn",
+      "Tăng lượng phương tiện tham gia giao thông",
+      "Làm tăng tiêu thụ điện năng"
+    ],
+    "answerIndices": [0],
+    "difficulty": "Hard",
+    "tags": ["Smart City", "VD"]
+  },
+  {
+    "id": "q_cs_01_22",
+    "topicId": "topic_cs_01",
+    "subTopic": "Bài 2: Thông tin và xử lý thông tin",
+    "stem": "Câu 6 [VD]. Trong một ngôi nhà thông minh, khi nhiệt độ phòng tăng cao, hệ thống điều hòa sẽ tự động bật và điều chỉnh nhiệt độ xuống mức cài đặt sẵn. Ứng dụng này minh họa cho đặc trưng nào của thiết bị thông minh?",
+    "options": [
+      "Có khả năng hoạt động tự chủ và tự điều chỉnh hoạt động theo môi trường xung quanh.",
+      "Có khả năng điều khiển thiết bị.",
+      "Có khả năng thu thập dữ liệu môi trường để lưu trữ và báo cáo.",
+      "Có khả năng lập lịch hoạt động theo thời gian định sẵn."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Hard",
+    "tags": ["Smart Home", "VD"]
+  },
+  {
+    "id": "q_cs_01_23",
+    "topicId": "topic_cs_01",
+    "subTopic": "Bài 7: TH sử dụng thiết bị số thông dụng",
+    "stem": "Câu 1. [NB] Vai trò nào sau đây thuộc về trợ thủ số cá nhân (PDA)?",
+    "options": [
+      "Phân tích dữ liệu lớn để ra quyết định kinh doanh.",
+      "Hỗ trợ người dùng trong các công việc thường ngày như nhắc nhở, tra cứu, giải trí3.",
+      "Điều khiển các robot công nghiệp trong dây chuyền sản xuất.",
+      "Phân loại và lập trình cho các hệ thống phần mềm lớn."
+    ],
+    "answerIndices": [1],
+    "difficulty": "Easy",
+    "tags": ["PDA", "NB"]
+  },
+  {
+    "id": "q_cs_01_24",
+    "topicId": "topic_cs_01",
+    "subTopic": "Bài 7: TH sử dụng thiết bị số thông dụng",
+    "stem": "Câu 2. [NB] Các thiết bị trợ thủ số cá nhân (PDA) ban đầu thường có chức năng chính là gì?",
+    "options": [
+      "Nghe nhạc, xem phim và chỉnh sửa video.",
+      "Lịch làm việc, danh bạ, đồng hồ và máy tính bỏ túi.",
+      "Truy cập Internet tốc độ cao.",
+      "Gọi điện thoại và gửi tin nhắn."
+    ],
+    "answerIndices": [1],
+    "difficulty": "Easy",
+    "tags": ["PDA", "NB"]
+  },
+  {
+    "id": "q_cs_01_25",
+    "topicId": "topic_cs_01",
+    "subTopic": "Bài 7: TH sử dụng thiết bị số thông dụng",
+    "stem": "Câu 3. [NB] Thiết bị nào sau đây KHÔNG được xem là trợ thủ số cá nhân?",
+    "options": [
+      "Đồng hồ thông minh.",
+      "Máy tính bảng.",
+      "Camera giám sát giao thông.",
+      "Điện thoại thông minh."
+    ],
+    "answerIndices": [2],
+    "difficulty": "Easy",
+    "tags": ["PDA", "NB"]
+  },
+  {
+    "id": "q_cs_01_26",
+    "topicId": "topic_cs_01",
+    "subTopic": "Bài 7: TH sử dụng thiết bị số thông dụng",
+    "stem": "Câu 4 TH. Đặc điểm nào sau đây KHÔNG ĐÚNG về PDA?",
+    "options": [
+      "Thiết bị nhỏ gọn có khả năng xử lý thông tin cá nhân.",
+      "Có thể kết nối mạng và đồng bộ dữ liệu.",
+      "Là một hệ điều hành dành cho thiết bị điện tử.",
+      "Có tích hợp nhiều phần mềm tiện ích."
+    ],
+    "answerIndices": [2],
+    "difficulty": "Medium",
+    "tags": ["PDA", "TH"]
+  },
+  {
+    "id": "q_cs_01_27",
+    "topicId": "topic_cs_01",
+    "subTopic": "Bài 7: TH sử dụng thiết bị số thông dụng",
+    "stem": "Câu 5 TH. Để tham gia buổi học trực tuyến qua Zoom, học sinh có thể sử dụng thiết bị nào?",
+    "options": [
+      "Máy tính cầm tay.",
+      "Điện thoại thông minh.",
+      "Đồng hồ thông minh.",
+      "Camera giám sát."
+    ],
+    "answerIndices": [1],
+    "difficulty": "Medium",
+    "tags": ["Ứng dụng thực tế", "TH"]
+  },
+  {
+    "id": "q_cs_01_28",
+    "topicId": "topic_cs_01",
+    "subTopic": "Bài 7: TH sử dụng thiết bị số thông dụng",
+    "stem": "Câu 6. [VD] Trong hệ thống nhà thông minh, đâu là thiết bị thực hiện vai trò điều khiển các thiết bị khác hoạt động, và nhận thông báo phản hồi từ các thiết bị khác?",
+    "options": [
+      "Camera giám sát.",
+      "Cảm biến ánh sáng.",
+      "Điện thoại thông minh.",
+      "Bóng đèn thông minh."
+    ],
+    "answerIndices": [2],
+    "difficulty": "Hard",
+    "tags": ["Smart Home", "VD"]
+  }
+
   // =================================================================
   // Topic 2: Mạng máy tính và Internet
   // =================================================================
