@@ -703,36 +703,156 @@ export const MOCK_CS_QUESTIONS: Question[] = [
   // =================================================================
   // Topic 3: Đạo đức, pháp luật và văn hóa trong môi trường số
   // =================================================================
-  { id: "q_cs_03_01", topicId: "topic_cs_03", stem: "Việc làm nào sau đây không bị phê phán khi tham gia các hoạt động trên không gian mạng?", options: ["Tự thay đổi mật khẩu cho máy tính cá nhân của mình.", "Phát tán các hình ảnh đồi truỵ lên mạng.", "Cố ý làm nhiễm virus vào máy tính của trường.", "Sao chép phần mềm không có bản quyền."], answerIndices: [0], difficulty: "Easy", tags: ["Đạo đức số", "Hành vi"], explanation_prompt: "Phân biệt hành vi cá nhân hợp lệ và hành vi gây hại trên mạng." },
-  { id: "q_cs_03_02", topicId: "topic_cs_03", stem: "Mạng Internet là môi trường giao tiếp nhanh chóng, thuận tiện nhưng ẩn chứa nhiều nguy cơ. Em cần làm gì để tránh mất an toàn thông tin?", options: ["Chỉ truy cập các trang web tin cậy; giữ bí mật thông tin cá nhân; chỉ kết bạn với người quen biết.", "Thường xuyên chia sẻ thông tin cá nhân, hình ảnh lên mạng xã hội.", "Bấm “Like”, “Share” mọi tin tức dù chưa kiểm chứng.", "Dành nhiều giờ mỗi ngày để chơi game hoặc xem mạng xã hội."], answerIndices: [0], difficulty: "Medium", tags: ["An toàn thông tin", "Bảo vệ bản thân"], explanation_prompt: "Nêu các quy tắc cơ bản để giữ an toàn trên Internet." },
-  { id: "q_cs_03_03", topicId: "topic_cs_03", stem: "Bạn em thường xuyên nhận được tin nhắn xúc phạm như “mày là đồ ngu ngốc, béo ú” từ một người quen. Em hãy đưa ra lời khuyên để có biện pháp phòng chống hành vi bắt nạt?", options: ["Báo cho thầy cô, cha mẹ để xin ý kiến và được hỗ trợ.", "Bỏ qua vì nghĩ họ chỉ đùa.", "Nhắn tin đáp trả bằng lời lẽ tương tự.", "Gặp người đó để cãi nhau trực tiếp."], answerIndices: [0], difficulty: "Hard", tags: ["Bắt nạt qua mạng", "Ứng xử"], explanation_prompt: "Hướng dẫn cách xử lý khi bị bắt nạt qua mạng." },
-  { id: "q_cs_03_04", topicId: "topic_cs_03", stem: "Trong buổi họp mặt gia đình, chú của em quay video về em và nói sẽ đăng lên mạng cho mọi người xem, nhưng em không muốn hình ảnh của mình bị đăng. Em nên làm gì?", options: ["Nói với bố mẹ và nhờ họ trao đổi nhẹ nhàng với chú, đề nghị không đăng lên mạng.", "Không thể làm gì vì video là của chú quay.", "Cứ để chú đăng, nếu có vấn đề thì mới yêu cầu xóa.", "Nổi giận và bắt chú xóa ngay video."], answerIndices: [0], difficulty: "Hard", tags: ["Quyền riêng tư", "Ứng xử"], explanation_prompt: "Cách bảo vệ quyền riêng tư về hình ảnh trong gia đình." },
-  { id: "q_cs_03_05", topicId: "topic_cs_03", stem: "Em thấy một diễn viên mạng nổi tiếng nhưng video của họ có nội dung dung tục, thiếu văn hóa. Bạn bè bảo đó là “phong cách mới”. Em nên làm gì?", options: ["Không xem kênh đó nữa, đồng thời khuyên bạn bè không nên xem.", "Hòa theo để khỏi bị cho là cổ hủ.", "Không xem nhưng cũng không quan tâm bạn khác.", "Tiếp tục xem để “theo dõi phong cách mới”."], answerIndices: [0], difficulty: "Hard", tags: ["Văn hóa mạng", "Ứng xử"], explanation_prompt: "Cách ứng xử văn minh trước nội dung không phù hợp trên mạng." },
-  { id: "q_cs_03_06", topicId: "topic_cs_03", stem: "Điều nào sau đây đúng về đặc điểm của Trojan?", options: ["Là phần mềm nội gián dùng để đánh cắp thông tin, chiếm quyền điều khiển máy tính.", "Chỉ là đoạn mã nhỏ, không gây hại.", "Chỉ ghi lại hoạt động máy tính mà không ảnh hưởng người dùng.", "Là phần mềm bảo vệ máy tính."], answerIndices: [0], difficulty: "Easy", tags: ["Mã độc", "Trojan"], explanation_prompt: "Định nghĩa và mục đích của Trojan." },
-  { id: "q_cs_03_07", topicId: "topic_cs_03", stem: "Điều nào sau đây đúng khi nói về Virus và Worm?", options: ["Là phần mềm độc hại có khả năng lây nhiễm, phá hủy dữ liệu, làm tê liệt hệ thống.", "Là phần mềm nội gián chiếm quyền điều khiển.", "Chỉ gắn kèm với tệp tin, không gây hại.", "Không thể lây lan qua mạng."], answerIndices: [0], difficulty: "Easy", tags: ["Mã độc", "Virus", "Worm"], explanation_prompt: "Định nghĩa và tác hại của Virus và Worm." },
-  { id: "q_cs_03_08", topicId: "topic_cs_03", stem: "Trojan là phương thức tấn công máy tính theo kiểu nào?", options: ["Ghi lại thao tác bàn phím, truy cập ngầm, chiếm quyền điều khiển máy tính từ xa.", "Tấn công trực tiếp để lấy thông tin.", "Lừa người dùng nhập thông tin cá nhân.", "Tấn công làm nghẽn mạng."], answerIndices: [0], difficulty: "Medium", tags: ["Mã độc", "Trojan"], explanation_prompt: "Mô tả cơ chế hoạt động của Trojan." },
-  { id: "q_cs_03_09", topicId: "topic_cs_03", stem: "Lời khuyên nào sai khi bảo vệ máy tính và thông tin cá nhân?", options: ["Không cần làm gì vì máy tính đã có sẵn phần mềm bảo vệ.", "Luôn đăng xuất sau khi dùng xong tài khoản.", "Không mở tệp đính kèm lạ.", "Cài và cập nhật phần mềm diệt virus thường xuyên."], answerIndices: [0], difficulty: "Hard", tags: ["An toàn thông tin", "Biện pháp"], explanation_prompt: "Phân tích các biện pháp bảo vệ máy tính hiệu quả." },
-  { id: "q_cs_03_10", topicId: "topic_cs_03", stem: "Hành vi nào có thể khiến máy tính bị nhiễm phần mềm độc hại?", options: ["Truy cập trang web lạ hoặc nhấp vào đường link không rõ nguồn gốc.", "Cài đặt phần mềm diệt virus như BKAV, Kaspersky.", "Thường xuyên cập nhật phần mềm bảo vệ.", "Học online và tìm kiếm thông tin chính thống."], answerIndices: [0], difficulty: "Hard", tags: ["An toàn thông tin", "Nguy cơ"], explanation_prompt: "Xác định các hành vi nguy hiểm có thể dẫn đến nhiễm mã độc." },
-  { id: "q_cs_03_11", topicId: "topic_cs_03", stem: "Hành vi “Đăng nhận xét có tính xúc phạm người khác trên mạng” có thể vi phạm:", options: ["Tuỳ theo mức độ, có thể vi phạm đạo đức hay pháp luật.", "Vi phạm pháp luật.", "Vi phạm đạo đức.", "Không vi phạm gì."], answerIndices: [0], difficulty: "Easy", tags: ["Pháp luật", "Đạo đức"], explanation_prompt: "Phân tích hậu quả của hành vi xúc phạm trên mạng." },
-  { id: "q_cs_03_12", topicId: "topic_cs_03", stem: "Hành vi “Đăng video quay hình ảnh người khác mà chưa xin phép” vi phạm:", options: ["Tuỳ theo mức độ, có thể vi phạm đạo đức hay pháp luật.", "Vi phạm pháp luật.", "Vi phạm đạo đức.", "Không vi phạm gì."], answerIndices: [0], difficulty: "Easy", tags: ["Pháp luật", "Quyền riêng tư"], explanation_prompt: "Phân tích hậu quả của hành vi vi phạm quyền riêng tư hình ảnh." },
-  { id: "q_cs_03_13", topicId: "topic_cs_03", stem: "Luật An ninh mạng của Việt Nam được ban hành vào năm nào?", options: ["2018", "1998", "2000", "2017"], answerIndices: [0], difficulty: "Easy", tags: ["Pháp luật", "An ninh mạng"], explanation_prompt: "Thông tin về Luật An ninh mạng Việt Nam." },
-  { id: "q_cs_03_14", topicId: "topic_cs_03", stem: "Định nghĩa nào sau đây đúng về quyền tác giả?", options: ["Quyền của tổ chức, cá nhân đối với tác phẩm mình sáng tạo ra hoặc sở hữu.", "Quyền của tổ chức, cá nhân đối với tác phẩm chưa đăng ký.", "Quyền của tổ chức, cá nhân đối với sản phẩm phần mềm của mình.", "Quyền sao chép tác phẩm mà không cần sự cho phép."], answerIndices: [0], difficulty: "Easy", tags: ["Pháp luật", "Bản quyền"], explanation_prompt: "Định nghĩa về quyền tác giả." },
-  { id: "q_cs_03_15", topicId: "topic_cs_03", stem: "Trong Luật Sở hữu trí tuệ Việt Nam (sửa đổi 2019), quyền tác giả bao gồm:", options: ["Quyền nhân thân và quyền tài sản.", "Quyền sở hữu và bản quyền.", "Quyền sáng tác.", "Quyền bảo hộ kinh doanh."], answerIndices: [0], difficulty: "Easy", tags: ["Pháp luật", "Bản quyền"], explanation_prompt: "Các thành phần của quyền tác giả theo luật Việt Nam." },
-  { id: "q_cs_03_16", topicId: "topic_cs_03", stem: "Quảng cáo sai về tác dụng của một loại thuốc sẽ bị xử lý theo khoản nào trong Nghị định 15/2020/NĐ-CP?", options: ["Cung cấp, chia sẻ thông tin giả mạo, sai sự thật, xuyên tạc, vu khống.", "Quảng cáo hàng hóa, dịch vụ bị cấm.", "Cung cấp, chia sẻ đường dẫn đến thông tin bị cấm.", "Không vi phạm pháp luật."], answerIndices: [0], difficulty: "Medium", tags: ["Pháp luật", "Thông tin sai sự thật"], explanation_prompt: "Giải thích các quy định xử phạt về thông tin sai sự thật." },
-  { id: "q_cs_03_17", topicId: "topic_cs_03", stem: "Khi mua bản quyền phần mềm diệt virus cho 1 máy tính cá nhân, hành động nào là đúng?", options: ["Chỉ được cài đặt và sử dụng trên một máy tính.", "Có thể cài đặt trên nhiều máy khác nhau.", "Có thể sao chép và bán lại cho người khác.", "Có thể phá khóa để chia sẻ miễn phí."], answerIndices: [0], difficulty: "Medium", tags: ["Bản quyền", "Phần mềm"], explanation_prompt: "Giải thích về giấy phép sử dụng phần mềm." },
-  { id: "q_cs_03_18", topicId: "topic_cs_03", stem: "Khi sử dụng mạng xã hội, người dùng thường đối mặt với nhiều rủi ro liên quan đến quyền riêng tư và lừa đảo. Phát biểu nào sau đây là ĐÚNG?", options: ["Không nên tiết lộ thông tin như số điện thoại, địa chỉ, hoặc mật khẩu trên mạng xã hội.", "Có thể chia sẻ các liên kết khuyến mãi mà bạn bè gửi mà không cần kiểm tra.", "Tài khoản giả mạo có thể dùng để thu thập thông tin hoặc lừa đảo người dùng.", "Cài đặt quyền riêng tư giúp hạn chế người lạ truy cập thông tin cá nhân."], answerIndices: [0, 2, 3], difficulty: "Medium", tags: ["An toàn thông tin", "Mạng xã hội"], explanation_prompt: "Nêu các biện pháp bảo vệ bản thân trên mạng xã hội." },
-  { id: "q_cs_03_19", topicId: "topic_cs_03", stem: "Em hãy xác định phát biểu về cách sử dụng email an toàn sau đây là ĐÚNG?", options: ["Không nên mở các tệp đính kèm có đuôi lạ (ví dụ: .exe, .zip) từ những người gửi không xác định.", "Không bao giờ nhấp vào các liên kết trong email yêu cầu cung cấp mật khẩu hoặc thông tin cá nhân.", "Tên người gửi là ngân hàng uy tín thì email đó chắc chắn là an toàn.", "Có thể bỏ qua việc đặt mật khẩu cho email vì email không phải là tài khoản quan trọng."], answerIndices: [0, 1], difficulty: "Hard", tags: ["An toàn thông tin", "Email"], explanation_prompt: "Nêu các quy tắc vàng khi sử dụng email để tránh lừa đảo." },
-  { id: "q_cs_03_20", topicId: "topic_cs_03", stem: "Khi sử dụng các ứng dụng ngân hàng hoặc thanh toán trực tuyến, người dùng cần lưu ý những yếu tố bảo mật nào để đảm bảo an toàn giao dịch?", options: ["Bật xác thực đa yếu tố (MFA/2FA) cho tài khoản ngân hàng nếu có thể.", "Luôn sử dụng mạng Wi-Fi công cộng có tên dễ nhớ để giao dịch vì tiện lợi.", "Cập nhật ứng dụng ngân hàng thường xuyên để nhận các bản vá bảo mật mới nhất.", "Đặt mật khẩu phức tạp, duy nhất và khác nhau cho mỗi ứng dụng tài chính quan trọng."], answerIndices: [0, 2, 3], difficulty: "Hard", tags: ["An toàn thông tin", "Giao dịch trực tuyến"], explanation_prompt: "Nêu các biện pháp bảo mật nâng cao cho giao dịch tài chính." },
-  { id: "q_cs_03_21", topicId: "topic_cs_03", stem: "Việc làm nào sau đây không bị phê phán khi tham gia các hoạt động trên không gian mạng?", options: ["Tự thay đổi mật khẩu cho máy tính cá nhân của mình.", "Phát tán các hình ảnh đồi truỵ lên mạng.", "Cố ý làm nhiễm virus vào máy tính của trường.", "Sao chép phần mềm không có bản quyền."], answerIndices: [0], difficulty: "Easy", tags: ["Đạo đức số", "Hành vi"], explanation_prompt: "Phân biệt hành vi cá nhân hợp lệ và hành vi gây hại trên mạng." },
-  { id: "q_cs_03_22", topicId: "topic_cs_03", stem: "Mạng Internet là môi trường giao tiếp nhanh chóng, thuận tiện nhưng ẩn chứa nhiều nguy cơ. Em cần làm gì để tránh mất an toàn thông tin?", options: ["Chỉ truy cập các trang web tin cậy; giữ bí mật thông tin cá nhân; chỉ kết bạn với người quen biết.", "Thường xuyên chia sẻ thông tin cá nhân, hình ảnh lên mạng xã hội.", "Bấm “Like”, “Share” mọi tin tức dù chưa kiểm chứng.", "Dành nhiều giờ mỗi ngày để chơi game hoặc xem mạng xã hội."], answerIndices: [0], difficulty: "Medium", tags: ["An toàn thông tin", "Bảo vệ bản thân"], explanation_prompt: "Nêu các quy tắc cơ bản để giữ an toàn trên Internet." },
-  { id: "q_cs_03_23", topicId: "topic_cs_03", stem: "Bạn em thường xuyên nhận được tin nhắn xúc phạm như “mày là đồ ngu ngốc, béo ú” từ một người quen. Em hãy đưa ra lời khuyên để có biện pháp phòng chống hành vi bắt nạt?", options: ["Báo cho thầy cô, cha mẹ để xin ý kiến và được hỗ trợ.", "Bỏ qua vì nghĩ họ chỉ đùa.", "Nhắn tin đáp trả bằng lời lẽ tương tự.", "Gặp người đó để cãi nhau trực tiếp."], answerIndices: [0], difficulty: "Hard", tags: ["Bắt nạt qua mạng", "Ứng xử"], explanation_prompt: "Hướng dẫn cách xử lý khi bị bắt nạt qua mạng." },
-  { id: "q_cs_03_24", topicId: "topic_cs_03", stem: "Trong buổi họp mặt gia đình, chú của em quay video về em và nói sẽ đăng lên mạng cho mọi người xem, nhưng em không muốn hình ảnh của mình bị đăng. Em nên làm gì?", options: ["Nói với bố mẹ và nhờ họ trao đổi nhẹ nhàng với chú, đề nghị không đăng lên mạng.", "Không thể làm gì vì video là của chú quay.", "Cứ để chú đăng, nếu có vấn đề thì mới yêu cầu xóa.", "Nổi giận và bắt chú xóa ngay video."], answerIndices: [0], difficulty: "Hard", tags: ["Quyền riêng tư", "Ứng xử"], explanation_prompt: "Cách bảo vệ quyền riêng tư về hình ảnh trong gia đình." },
-  { id: "q_cs_03_25", topicId: "topic_cs_03", stem: "Em thấy một diễn viên mạng nổi tiếng nhưng video của họ có nội dung dung tục, thiếu văn hóa. Bạn bè bảo đó là “phong cách mới”. Em nên làm gì?", options: ["Không xem kênh đó nữa, đồng thời khuyên bạn bè không nên xem.", "Hòa theo để khỏi bị cho là cổ hủ.", "Không xem nhưng cũng không quan tâm bạn khác.", "Tiếp tục xem để “theo dõi phong cách mới”."], answerIndices: [0], difficulty: "Hard", tags: ["Văn hóa mạng", "Ứng xử"], explanation_prompt: "Cách ứng xử văn minh trước nội dung không phù hợp trên mạng." },
-  { id: "q_cs_03_26", topicId: "topic_cs_03", stem: "Điều nào sau đây đúng về đặc điểm của Trojan?", options: ["Là phần mềm nội gián dùng để đánh cắp thông tin, chiếm quyền điều khiển máy tính.", "Chỉ là đoạn mã nhỏ, không gây hại.", "Chỉ ghi lại hoạt động máy tính mà không ảnh hưởng người dùng.", "Là phần mềm bảo vệ máy tính."], answerIndices: [0], difficulty: "Easy", tags: ["Mã độc", "Trojan"], explanation_prompt: "Định nghĩa và mục đích của Trojan." },
-  { id: "q_cs_03_27", topicId: "topic_cs_03", stem: "Điều nào sau đây đúng khi nói về Virus và Worm?", options: ["Là phần mềm độc hại có khả năng lây nhiễm, phá hủy dữ liệu, làm tê liệt hệ thống.", "Là phần mềm nội gián chiếm quyền điều khiển.", "Chỉ gắn kèm với tệp tin, không gây hại.", "Không thể lây lan qua mạng."], answerIndices: [0], difficulty: "Easy", tags: ["Mã độc", "Virus", "Worm"], explanation_prompt: "Định nghĩa và tác hại của Virus và Worm." },
-  { id: "q_cs_03_28", topicId: "topic_cs_03", stem: "Trojan là phương thức tấn công máy tính theo kiểu nào?", options: ["Ghi lại thao tác bàn phím, truy cập ngầm, chiếm quyền điều khiển máy tính từ xa.", "Tấn công trực tiếp để lấy thông tin.", "Lừa người dùng nhập thông tin cá nhân.", "Tấn công làm nghẽn mạng."], answerIndices: [0], difficulty: "Medium", tags: ["Mã độc", "Trojan"], explanation_prompt: "Mô tả cơ chế hoạt động của Trojan." },
-  { id: "q_cs_03_29", topicId: "topic_cs_03", stem: "Lời khuyên nào sai khi bảo vệ máy tính và thông tin cá nhân?", options: ["Không cần làm gì vì máy tính đã có sẵn phần mềm bảo vệ.", "Luôn đăng xuất sau khi dùng xong tài khoản.", "Không mở tệp đính kèm lạ.", "Cài và cập nhật phần mềm diệt virus thường xuyên."], answerIndices: [0], difficulty: "Hard", tags: ["An toàn thông tin", "Biện pháp"], explanation_prompt: "Phân tích các biện pháp bảo vệ máy tính hiệu quả." },
-  { id: "q_cs_03_30", topicId: "topic_cs_03", stem: "Hành vi nào có thể khiến máy tính bị nhiễm phần mềm độc hại?", options: ["Truy cập trang web lạ hoặc nhấp vào đường link không rõ nguồn gốc.", "Cài đặt phần mềm diệt virus như BKAV, Kaspersky.", "Thường xuyên cập nhật phần mềm bảo vệ.", "Học online và tìm kiếm thông tin chính thống."], answerIndices: [0], difficulty: "Hard", tags: ["An toàn thông tin", "Nguy cơ"], explanation_prompt: "Xác định các hành vi nguy hiểm có thể dẫn đến nhiễm mã độc." },
-  { id: "q_cs_03_31", topicId: "topic_cs_03", stem: "Trong quá trình sử dụng Internet, người dùng có thể gặp nhiều phần mềm độc hại (malware) được tạo ra với mục đích gây hại hoặc đánh cắp dữ liệu. Hãy xác định các phát biểu sau ĐÚNG hay SAI:", options: ["Phần mềm độc hại bao gồm virus, sâu máy tính (worm) và trojan.", "Tấn công lừa đảo chỉ xảy ra qua email, không xảy ra qua tin nhắn điện thoại.", "Việc sử dụng mạng xã hội là nguy hiểm và nên tránh hoàn toàn.", "Mối đe dọa chính của mã độc là làm hỏng hệ điều hành hoặc đánh cắp dữ liệu."], answerIndices: [0, 3], difficulty: "Medium", tags: ["Malware", "Định nghĩa", "Multiple"], explanation_prompt: "Định nghĩa và mối đe dọa của Malware." },
-  { id: "q_cs_03_32", topicId: "topic_cs_03", stem: "Một học sinh dùng điện thoại thông minh kết nối Wi-Fi công cộng ở quán cà phê để truy cập hệ thống học trực tuyến. Các phát biểu sau về hành vi này, hãy cho biết ĐÚNG hay SAI:", options: ["Kết nối Wi-Fi công cộng tiện lợi nhưng có rủi ro bảo mật nếu không dùng kết nối an toàn.", "Khi dùng Wi-Fi công cộng thì không bao giờ cần đăng nhập tài khoản vào trang học trực tuyến.", "Sử dụng mạng công cộng nên tránh truy cập các thông tin nhạy cảm hoặc nên dùng VPN để tăng an toàn.", "Wi-Fi công cộng luôn được mã hóa và an toàn như mạng riêng tư."], answerIndices: [0, 2], difficulty: "Medium", tags: ["An toàn thông tin", "Wi-Fi công cộng", "Multiple"], explanation_prompt: "An toàn khi dùng Wi-Fi công cộng." }
-];
+  [
+  {
+    "id": "q_cs_03_01",
+    "topicId": "topic_cs_03",
+    "subTopic": "Bài 11: Ứng xử trong môi trường số và nghĩa vụ tôn trọng bản quyền",
+    "stem": "Câu 1 (3.11. 1 NB). Hành vi \"Đăng nhận xét có tính xúc phạm người khác trên không gian mạng\" sẽ vi phạm các trường hợp nào sau đây?",
+    "options": [
+      "Tùy theo mức độ, có thể vi phạm đạo đức hay pháp luật.",
+      "Vi phạm pháp luật.",
+      "Vi phạm đạo đức.",
+      "Không vi phạm gì."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Ứng xử mạng", "Đạo đức và Pháp luật", "NB"]
+  },
+  {
+    "id": "q_cs_03_02",
+    "topicId": "topic_cs_03",
+    "subTopic": "Bài 11: Ứng xử trong môi trường số và nghĩa vụ tôn trọng bản quyền",
+    "stem": "Câu 2 (3.11. 1 NB). Hành vi nào sau đây KHÔNG là hành vi vi phạm pháp luật về chia sẻ thông tin trên không gian mạng?",
+    "options": [
+      "Chia sẻ tin tức của trang báo Lao Động lên trang cá nhân Facebook.",
+      "Chia sẻ văn hóa phẩm đồi trụy trên mạng.",
+      "Đăng tin sai sự thật về người khác lên Zalo.",
+      "Phát tán video độc hại (như nội dung kích động bạo lực, thù hận) lên mạng."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Chia sẻ thông tin", "Pháp luật mạng", "NB"]
+  },
+  {
+    "id": "q_cs_03_03",
+    "topicId": "topic_cs_03",
+    "subTopic": "Bài 11: Ứng xử trong môi trường số và nghĩa vụ tôn trọng bản quyền",
+    "stem": "Câu 3 (3.11. NB). Hoàng mua một thẻ nhớ USB chứa các video âm nhạc mà người bán đã sao chép từ Internet và bán lại với giá rẻ, không có thỏa thuận hay xin phép tác giả/ca sĩ biểu diễn. Hành vi này thể hiện sự vi phạm nào sau đây?",
+    "options": [
+      "Vi phạm bản quyền (Sở hữu trí tuệ).",
+      "Vi phạm quy định về đạo đức xã hội.",
+      "Vi phạm pháp luật và đạo đức.",
+      "Không vi phạm gì vì Hoàng chỉ là người muA."
+    ],
+    "answerIndices": [2],
+    "difficulty": "Easy",
+    "tags": ["Bản quyền", "Sở hữu trí tuệ", "NB"]
+  },
+  {
+    "id": "q_cs_03_04",
+    "topicId": "topic_cs_03",
+    "subTopic": "Bài 11: Ứng xử trong môi trường số và nghĩa vụ tôn trọng bản quyền",
+    "stem": "Câu 4 (3.11. NB). Có một truyện ngắn được tác giả đăng trên website và cho phép mọi người đọc. Trong các hành vi sau, hành vi nào là vi phạm bản quyền?",
+    "options": [
+      "Ghi ra đĩa CD tặng, bán cho các bạn.",
+      "Vào website để đọc truyện.",
+      "Đăng tải đường link trên Facebook của mình cho mọi người tìm đọc.",
+      "Nhấn Like và để lại bình luận tích cực."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Bản quyền", "Sở hữu trí tuệ", "NB"]
+  },
+  {
+    "id": "q_cs_03_05",
+    "topicId": "topic_cs_03",
+    "subTopic": "Bài 11: Ứng xử trong môi trường số và nghĩa vụ tôn trọng bản quyền",
+    "stem": "Câu 5 (3.11.TH). Học sinh tải về một video kể chuyện bằng hình ảnh từ Internet để thuyết trình trong giờ học. Vậy học sinh đó cần lưu ý điều gì để đảm bảo tuân thủ pháp luật về bản quyền và sở hữu trí tuệ?",
+    "options": [
+      "Nên xem xét đến vấn đề bản quyền và có trích dẫn nguồn đầy đủ khi khai thác, sử dụng phục vụ cho việc học tập.",
+      "Nên chia sẻ cho cả lớp vì tài liệu này phục vụ cho học tập không vì mục đích thương mại.",
+      "Không nên tải về và chia sẻ vì vi phạm bản quyền.",
+      "Không nên chia sẻ cho cả lớp vì chỉ người tải về mới được phép sử dụng."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Medium",
+    "tags": ["Sử dụng tài nguyên mạng", "Bản quyền", "TH"]
+  },
+  {
+    "id": "q_cs_03_06",
+    "topicId": "topic_cs_03",
+    "subTopic": "Bài 11: Ứng xử trong môi trường số và nghĩa vụ tôn trọng bản quyền",
+    "stem": "Câu 6 (3.11.3 TH). Tình huống nào sau đây thể hiện việc thực hiện đúng trách nhiệm công dân khi tham gia và sử dụng thông tin trên không gian mạng?",
+    "options": [
+      "Tự giác tìm hiểu và tuân thủ các quy định pháp luật về an ninh mạng và sở hữu trí tuệ.",
+      "Chia sẻ thông tin được cho là \"hot\" hoặc giật gân, vì đây là xu hướng tương tác tự do trên mạng xã hội.",
+      "Sử dụng tài liệu, phần mềm của người khác để phục vụ cho mục đích học tập cá nhân mà không cần quan tâm đến bản quyền.",
+      "Coi không gian mạng là \"thế giới ảo\" nên có thể thoải mái phát ngôn, bình luận, và bày tỏ ý kiến cá nhân."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Medium",
+    "tags": ["Trách nhiệm công dân", "An ninh mạng", "TH"]
+  },
+  {
+    "id": "q_cs_03_07",
+    "topicId": "topic_cs_03",
+    "subTopic": "Bài 11: Ứng xử trong môi trường số và nghĩa vụ tôn trọng bản quyền",
+    "stem": "Câu 7 (3.11.3 TH). Khi sử dụng lại các thông tin (văn bản, hình ảnh, video, phần mềm) được lấy từ trên mạng, chúng ta cần lưu ý đến vấn đề quan trọng nào sau đây để đảm bảo tuân thủ pháp luật?",
+    "options": [
+      "Bản quyền (Quyền sở hữu trí tuệ).",
+      "Các từ khóa liên quan đến thông tin cần tìm.",
+      "Địa chỉ của trang web.",
+      "Các từ khóa liên quan đến trang web."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Medium",
+    "tags": ["Sở hữu trí tuệ", "Pháp luật", "TH"]
+  },
+  {
+    "id": "q_cs_03_08",
+    "topicId": "topic_cs_03",
+    "subTopic": "Bài 11: Ứng xử trong môi trường số và nghĩa vụ tôn trọng bản quyền",
+    "stem": "Câu 8 (3.11 NB). Hãy chỉ ra định nghĩa ĐÚNG về Quyền tác giả?",
+    "options": [
+      "Quyền của tổ chức, cá nhân đối với tác phẩm mình sáng tạo ra hoặc sở hữu",
+      "Quyền của tổ chức, cá nhân đối với tác phẩm do chính mình sáng tạo ra nhưng chưa đăng ký.",
+      "Quyền của tổ chức, cá nhân đối với các sản phẩm phần mềm do mình sở hữu.",
+      "Quyền sao chép tác phẩm mà không cần sự cho phép của chủ sở hữu."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Quyền tác giả", "Khái niệm", "NB"]
+  },
+  {
+    "id": "q_cs_03_09",
+    "topicId": "topic_cs_03",
+    "subTopic": "Bài 11: Ứng xử trong môi trường số và nghĩa vụ tôn trọng bản quyền",
+    "stem": "Câu 9 (3.11 NB). Luật Sở hữu trí tuệ quy định quyền tác giả đối tác phẩm bao gồm các quyền nào sau đây?",
+    "options": [
+      "Quyền nhân thân và quyền tài sản.",
+      "Quyền sở hữu và bản quyền.",
+      "Quyền sáng tác.",
+      "Quyền bảo hộ kinh"
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Luật Sở hữu trí tuệ", "NB"]
+  },
+  {
+    "id": "q_cs_03_10",
+    "topicId": "topic_cs_03",
+    "subTopic": "Bài 11: Ứng xử trong môi trường số và nghĩa vụ tôn trọng bản quyền",
+    "stem": "Câu 10 (3.11 VD). Khi mua quyền sử dụng (license) phần mềm diệt virus cho một máy tính cá nhân, người mua có thể thực hiện việc nào sau đây để thể hiện sự tôn trọng bản quyền?",
+    "options": [
+      "Chỉ được cài đặt và sử dụng trên một máy tính.",
+      "Có thể cài đặt trên nhiều máy tính khác nhau.",
+      "Có thể sao chép ra đĩa CD và bán cho người khác.",
+      "Có quyền thực hiện mọi hoạt động phá khóa phần mềm."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Hard",
+    "tags": ["Bản quyền phần mềm", "VD"]
+  };
+
+]
