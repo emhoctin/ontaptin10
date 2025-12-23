@@ -274,7 +274,7 @@ export const MOCK_CS_QUESTIONS: Question[] = [
     "answerIndices": [2],
     "difficulty": "Hard",
     "tags": ["Smart Home", "VD"]
-  }
+  },
 
   // =================================================================
   // Topic 2: Mạng máy tính và Internet
