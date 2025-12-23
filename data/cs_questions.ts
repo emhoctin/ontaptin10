@@ -279,7 +279,7 @@ export const MOCK_CS_QUESTIONS: Question[] = [
   // =================================================================
   // Topic 2: Mạng máy tính và Internet
   // =================================================================
- [
+ 
   {
     "id": "q_cs_02_01",
     "topicId": "topic_cs_02",
@@ -703,7 +703,7 @@ export const MOCK_CS_QUESTIONS: Question[] = [
   // =================================================================
   // Topic 3: Đạo đức, pháp luật và văn hóa trong môi trường số
   // =================================================================
-  [
+  
   {
     "id": "q_cs_03_01",
     "topicId": "topic_cs_03",
@@ -853,6 +853,962 @@ export const MOCK_CS_QUESTIONS: Question[] = [
     "answerIndices": [0],
     "difficulty": "Hard",
     "tags": ["Bản quyền phần mềm", "VD"]
-  };
+  }, 
+  // =================================================================
+  // Topic 4: Thiết kế đồ họa
+  // =================================================================
+
+  {
+    "id": "q_cs_04_01",
+    "topicId": "topic_cs_04",
+    "subTopic": "Bài 12: Phần mềm thiết kế đồ hoạ",
+    "stem": "Câu 1 (4.12. NB). Quá trình thiết kế các thông điệp truyền thông bằng hình ảnh; giải quyết vấn đề thông qua sự kết hợp hình ảnh, kiểu chữ với ý tưởng để truyền tải thông tin đến người xem gọi là gì?",
+    "options": [
+      "Thiết kế đồ họa.",
+      "Thiết kế quảng cáo.",
+      "Thiết kế ý tưởng.",
+      "Thiết kế ảnh."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Khái niệm", "NB"]
+  },
+  {
+    "id": "q_cs_04_02",
+    "topicId": "topic_cs_04",
+    "subTopic": "Bài 12: Phần mềm thiết kế đồ hoạ",
+    "stem": "Câu 2 (4.12. NB). Từ còn thiếu trong dấu ba chấm (…) là gì: “Trong đồ họa vectơ, hình ảnh được xác định theo đường nét, mỗi một đường có điểm đầu và điểm cuối, được tính bằng một …”",
+    "options": [
+      "phương trình toán học.",
+      "đường thẳng.",
+      "chấm ảnh.",
+      "điểm ảnh."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Đồ họa vector", "NB"]
+  },
+  {
+    "id": "q_cs_04_03",
+    "topicId": "topic_cs_04",
+    "subTopic": "Bài 12: Phần mềm thiết kế đồ hoạ",
+    "stem": "Câu 3 (4.12. NB). Sau khi hoàn thành việc vẽ hình trong phần mềm Inkscape, bạn Lan lưu tệp bằng lệnh File/Save để lưu lại sản phẩm đã tạo dưới dạng tệp hình vectơ có phần mở rộng là gì?",
+    "options": [
+      "svg",
+      "jpg",
+      "ink",
+      "png"
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Định dạng tệp", "NB"]
+  },
+  {
+    "id": "q_cs_04_04",
+    "topicId": "topic_cs_04",
+    "subTopic": "Bài 12: Phần mềm thiết kế đồ hoạ",
+    "stem": "Câu 4 (4.12. NB). Trong phần mềm Inkscape, tổ hợp phím tắt để tạo ra một bản sao của đối tượng đang được chọn là?",
+    "options": [
+      "Ctrl + D",
+      "Ctrl + Alt + D",
+      "Shift + D",
+      "Alt + D"
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Phím tắt", "NB"]
+  },
+  {
+    "id": "q_cs_04_05",
+    "topicId": "topic_cs_04",
+    "subTopic": "Bài 12: Phần mềm thiết kế đồ hoạ",
+    "stem": "Câu 5 (4.12. NB). Trong môi trường làm việc của phần mềm Inkscape, người dùng có thể vẽ hình hoặc tạo đối tượng ở khu vực nào?",
+    "options": [
+      "Toàn bộ vùng làm việc bao gồm cả phần bên ngoài giới hạn của trang in.",
+      "Chỉ giới hạn trong khu vực trang in được hiển thị.",
+      "Chỉ trong khu vực giới hạn bởi các thanh công cụ và hộp thoại điều khiển.",
+      "Chỉ trong phạm vi hiển thị trên màn hình hiện tại."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Giao diện", "NB"]
+  },
+  {
+    "id": "q_cs_04_06",
+    "topicId": "topic_cs_04",
+    "subTopic": "Bài 12: Phần mềm thiết kế đồ hoạ",
+    "stem": "Câu 6 (4.12. TH). Hãy chỉ ra đâu là đặc điểm của đồ họa vec tơ?",
+    "options": [
+      "Định nghĩa bằng phương trình toán học, có thể co dãn mà không bị vỡ hình.",
+      "Định nghĩa bằng tập điểm.",
+      "Phóng to có ảnh hưởng chất lượng hình.",
+      "Ảnh lớn, độ chi tiết tương ứng kích thước tệp lớn."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Medium",
+    "tags": ["Đặc điểm đồ họa", "TH"]
+  },
+  {
+    "id": "q_cs_04_07",
+    "topicId": "topic_cs_04",
+    "subTopic": "Bài 12: Phần mềm thiết kế đồ hoạ",
+    "stem": "Câu 7 (4.12. TH). Trong phần mềm thiết kế đồ họa Inkscape, thanh công cụ nào được sử dụng thường xuyên nhất và nội dung của nó sẽ thay đổi tùy thuộc vào công cụ đang được chọn ở hộp công cụ?",
+    "options": [
+      "Hộp công cụ",
+      "Bảng màu",
+      "Thanh thiết lập chế độ kết dính.",
+      "Thanh điều khiển thuộc tính."
+    ],
+    "answerIndices": [3],
+    "difficulty": "Medium",
+    "tags": ["Thanh công cụ", "TH"]
+  },
+  {
+    "id": "q_cs_04_08",
+    "topicId": "topic_cs_04",
+    "subTopic": "Bài 12: Phần mềm thiết kế đồ hoạ",
+    "stem": "Câu 8 (4.12. VD). Trong phần mềm Inkscape, những thao tác nào sau đây có thể thực hiện được với một đối tượng đồ họa đã được chọn?",
+    "options": [
+      "Đối tượng được chọn có thể được di chuyển, phóng to, thu nhỏ, xoay, lật, nghiêng và thay đổi thuộc tính tô màu, nét viền.",
+      "Chỉ có thể tạo bản sao và thay đổi kích thước (phóng to, thu nhỏ).",
+      "Chỉ có thể di chuyển và xoay đối tượng, các thuộc tính khác không thay đổi được.",
+      "Chỉ có thể chọn đối tượng và thay đổi màu sắc, không thể thay đổi vị trí hay kích thước."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Hard",
+    "tags": ["Thao tác đối tượng", "VD"]
+  },
+  {
+    "id": "q_cs_04_09",
+    "topicId": "topic_cs_04",
+    "subTopic": "Bài 12: Phần mềm thiết kế đồ hoạ",
+    "stem": "Câu 9 (4.12.VD): Trong phần mềm đồ họa Inkscape, sau khi vẽ một hình tròn và chọn đối tượng đó, để tạo ra một bản sao (copy) của hình tròn đó, ta sử dụng lệnh nào?",
+    "options": [
+      "Duplicate",
+      "File/ New",
+      "File/ Export PNG Image",
+      "Division"
+    ],
+    "answerIndices": [0],
+    "difficulty": "Hard",
+    "tags": ["Lệnh sao chép", "VD"]
+  },
+  {
+    "id": "q_cs_04_10",
+    "topicId": "topic_cs_04",
+    "subTopic": "Bài 13: Bổ sung các đối tượng đồ hoạ",
+    "stem": "Câu 1 (4.13. NB). Trong phần mềm đồ họa Inkscape, mỗi hình khối được đặc trưng bởi các thuộc tính riêng biệt hiển thị trên Thanh điều khiển thuộc tính. Hãy cho biết các thuộc tính W và H của hình chữ nhật đại diện cho thông số nào?",
+    "options": [
+      "Chiều rộng và Chiều cao.",
+      "Bán kính theo phương ngang và phương thẳng đứng.",
+      "Số đỉnh của đa giác.",
+      "Góc của điểm đầu và điểm cuối."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Thuộc tính hình khối", "NB"]
+  },
+  {
+    "id": "q_cs_04_11",
+    "topicId": "topic_cs_04",
+    "subTopic": "Bài 13: Bổ sung các đối tượng đồ hoạ",
+    "stem": "Câu 2 (4.13. NB). Trong phần mềm đồ họa Inkscape, thuộc tính Spoke Ratio là thông số đặc trưng để điều chỉnh hình dạng của đối tượng nào?",
+    "options": [
+      "Hình đa giác, Hình sao.",
+      "Hình vuông, Hình chữ nhật.",
+      "Hình tròn, Hình Elip.",
+      "Hình hộp."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Thuộc tính hình khối", "NB"]
+  },
+  {
+    "id": "q_cs_04_12",
+    "topicId": "topic_cs_04",
+    "subTopic": "Bài 13: Bổ sung các đối tượng đồ hoạ",
+    "stem": "Câu 3 (4.13. NB). Trong phần mềm đồ họa Inkscape, để tùy chỉnh màu tô và màu nét vẽ/viền của đối tượng đồ họa, ta sử dụng hộp thoại nào sau đây?",
+    "options": [
+      "Fill and Stroke (Tô và Nét vẽ).",
+      "Stroke Style (Kiểu nét vẽ).",
+      "Opacity (Độ mờ).",
+      "Fill Style (Kiểu tô)."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Màu sắc và nét vẽ", "NB"]
+  },
+  {
+    "id": "q_cs_04_13",
+    "topicId": "topic_cs_04",
+    "subTopic": "Bài 13: Bổ sung các đối tượng đồ hoạ",
+    "stem": "Câu 4 (4.13.VD): Trong phần mềm đồ họa Inkscape, để thực hiện thao tác nhanh đổi màu đường viền (Stroke color) cho một hình tròn (hoặc bất kỳ đối tượng nào đã chọn) bằng cách sử dụng Bảng màu (Palette) ở phía dưới, ta cần thực hiện tổ hợp thao tác nào sau đây?",
+    "options": [
+      "Chọn hình tròn, sau đó nhấn giữ phím Shift và nháy chuột vào ô màu mong muốn trên Bảng màu.",
+      "Chọn hình tròn, sau đó nhấn giữ phím Ctrl và nháy chuột vào ô màu mong muốn trên Bảng màu.",
+      "Chọn hình tròn, sau đó nháy chuột vào ô màu mong muốn trên Bảng màu.",
+      "Chọn hình tròn, sau đó nhấn giữ phím Shift + Ctrl."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Hard",
+    "tags": ["Thao tác màu sắc", "VD"]
+  },
+  {
+    "id": "q_cs_04_14",
+    "topicId": "topic_cs_04",
+    "subTopic": "Bài 13: Bổ sung các đối tượng đồ hoạ",
+    "stem": "Câu 5 (4.13.TH). Chức năng nào trong bảng chọn Path dùng để chuyển hình 1 thành hình 2?",
+    "options": [
+      "Union (Phép hợp).",
+      "Difference (Phép hiệu).",
+      "Intersection (Phép giao).",
+      "Exclusion (Phép hiệu đối xứng)."
+    ],
+    "answerIndices": [1],
+    "difficulty": "Medium",
+    "tags": ["Phép toán Path", "TH"]
+  },
+  {
+    "id": "q_cs_04_15",
+    "topicId": "topic_cs_04",
+    "subTopic": "Bài 13: Bổ sung các đối tượng đồ hoạ",
+    "stem": "Câu 6 (4.13.TH). Chức năng nào trong bảng chọn Path dùng để chuyển hình 1 thành hình 2?",
+    "options": [
+      "Difference (Phép hiệu).",
+      "Union (Phép hợp).",
+      "Intersection (Phép giao).",
+      "Exclusion (Phép hiệu đối xứng)."
+    ],
+    "answerIndices": [1],
+    "difficulty": "Medium",
+    "tags": ["Phép toán Path", "TH"]
+  },
+  {
+    "id": "q_cs_04_16",
+    "topicId": "topic_cs_04",
+    "subTopic": "Bài 13: Bổ sung các đối tượng đồ hoạ",
+    "stem": "Câu 7 (4.13.TH). Chức năng nào trong bảng chọn Path dùng để chuyển hình 1 thành hình 2?",
+    "options": [
+      "Intersection (Phép giao).",
+      "Division (Phép chia).",
+      "Exclusion (Phép hiệu đối xứng).",
+      "Cut Path (Phép cắt)."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Medium",
+    "tags": ["Phép toán Path", "TH"]
+  },
+  {
+    "id": "q_cs_04_17",
+    "topicId": "topic_cs_04",
+    "subTopic": "Bài 13: Bổ sung các đối tượng đồ hoạ",
+    "stem": "Câu 8 (4.13.TH). Chức năng nào trong bảng chọn Path dùng để chuyển hình 1 thành hình 2?",
+    "options": [
+      "Exclusion (Phép hiệu đối xứng).",
+      "Division (Phép chia).",
+      "Intersection (Phép giao).",
+      "Cut Path (Phép cắt)."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Medium",
+    "tags": ["Phép toán Path", "TH"]
+  },
+  {
+    "id": "q_cs_04_18",
+    "topicId": "topic_cs_04",
+    "subTopic": "Bài 13: Bổ sung các đối tượng đồ hoạ",
+    "stem": "Câu 9 (4.13.TH). Chức năng nào trong bảng chọn Path dùng để chuyển hình 1 thành hình 2?",
+    "options": [
+      "Division (Phép chia).",
+      "Exclusion (Phép hiệu đối xứng).",
+      "Intersection (Phép giao).",
+      "Cut Path (Phép cắt)."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Medium",
+    "tags": ["Phép toán Path", "TH"]
+  },
+  {
+    "id": "q_cs_04_19",
+    "topicId": "topic_cs_04",
+    "subTopic": "Bài 14: Làm việc với đối tượng đường và văn bản",
+    "stem": "Câu 1(4.14.NB). Chọn từ còn thiếu trong câu sau: “Khi nối các đoạn thẳng hoặc đoạn cong với nhau ta thu được đường cong … hơn.”",
+    "options": [
+      "phức tạp.",
+      "đơn giản.",
+      "cong.",
+      "thẳng."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Đối tượng đường", "NB"]
+  },
+  {
+    "id": "q_cs_04_20",
+    "topicId": "topic_cs_04",
+    "subTopic": "Bài 14: Làm việc với đối tượng đường và văn bản",
+    "stem": "Câu 2 (4.14. NB). Chọn phát biểu ĐÚNG trong các phát biểu sau đây về đối tượng đồ họa trong phần mềm Inkscape:",
+    "options": [
+      "Hình khối (ví dụ: hình tròn, hình chữ nhật) là các đối tượng được định nghĩa sẵn trong Inkscape và xác định bởi các tính chất toán học chặt chẽ.",
+      "Khi điều chỉnh (biến đổi) hình khối (ví dụ: xoay, thu nhỏ), ta thu được hình mới với tất cả các đặc trưng và thuộc tính hình học cơ bản đều thay đổi.",
+      "Không thể điều chỉnh các đối tượng tự do dạng đường (Path) bằng công cụ chỉnh sửa nút (Node Tool) sau khi đã vẽ.",
+      "Các đối tượng tự do (ví dụ: đường vẽ bằng công cụ Pencil) không thể chỉnh sửa thành hình dạng khác một cách chi tiết."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Đối tượng đồ họa", "NB"]
+  },
+  {
+    "id": "q_cs_04_21",
+    "topicId": "topic_cs_04",
+    "subTopic": "Bài 14: Làm việc với đối tượng đường và văn bản",
+    "stem": "Câu 3 (4.14.NB). Trong hình học và đồ họa vector, đối tượng đường (Path) thường được biểu diễn bởi một chuỗi các đoạn thẳng hoặc đoạn cong nối lại với nhau. Cần có ít nhất bao nhiêu điểm (đầu mút/nút - Nodes) để xác định một đoạn thẳng (Line Segment)?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "1"
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Nodes", "NB"]
+  },
+  {
+    "id": "q_cs_04_22",
+    "topicId": "topic_cs_04",
+    "subTopic": "Bài 14: Làm việc với đối tượng đường và văn bản",
+    "stem": "Câu 4 (4.14.TH). Hãy cho biết phát biểu nào sau đây là SAI khi làm việc với đoạn văn bản trong phần mềm đồ họa vector Inkscape?",
+    "options": [
+      "Nếu đặt đoạn văn uốn lượn theo một đường dẫn (Path), ta không thể thay đổi định dạng đó (ví dụ: thay đổi chữ, màu sắc).",
+      "Trong một đoạn văn có nhiều chữ, ta có thể tô mỗi chữ bằng một màu khác nhau.",
+      "Trong một đoạn văn có nhiều chữ, ta có thể tùy chỉnh để mỗi chữ có độ cao thấp khác nhau.",
+      "Ta có thể đặt đoạn văn bản theo một khuôn dạng nhất định (ví dụ: theo một đường cong, hình tròn)."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Medium",
+    "tags": ["Văn bản", "TH"]
+  },
+  {
+    "id": "q_cs_04_23",
+    "topicId": "topic_cs_04",
+    "subTopic": "Bài 14: Làm việc với đối tượng đường và văn bản",
+    "stem": "Câu 5(4.14.VD). Trong phần mềm đồ họa Inkscape, để làm cho một đối tượng văn bản uốn lượn theo một đường dẫn (Path) đã được vẽ sẵn, ta cần chọn cả đối tượng văn bản và đường dẫn, sau đó thực hiện lệnh nào?",
+    "options": [
+      "Text / Put on Path",
+      "Path / Put on Path",
+      "Objects / Put on Path",
+      "Text / Remove from Path"
+    ],
+    "answerIndices": [0],
+    "difficulty": "Hard",
+    "tags": ["Văn bản và đường dẫn", "VD"]
+  },
+  {
+    "id": "q_cs_04_24",
+    "topicId": "topic_cs_04",
+    "subTopic": "Bài 14: Làm việc với đối tượng đường và văn bản",
+    "stem": "Câu 6 (4.14.VD). Trong phần mềm đồ họa Inkscape, để hủy bỏ thao tác đặt văn bản uốn lượn theo một đường dẫn (Path) đã có, đưa văn bản trở lại trạng thái thẳng ban đầu, ta chọn đối tượng văn bản và đường dẫn rồi thực hiện lệnh nào?",
+    "options": [
+      "Text / Remove from Path",
+      "Text / Put on Path",
+      "Path / Put on Path",
+      "Objects / Put on Path"
+    ],
+    "answerIndices": [0],
+    "difficulty": "Hard",
+    "tags": ["Văn bản và đường dẫn", "VD"]
+  },
+  {
+    "id": "q_cs_04_25",
+    "topicId": "topic_cs_04",
+    "subTopic": "Bài 15: Hoàn thiện hình ảnh đồ họa",
+    "stem": "Câu 1 (4.15.NB): Trong phần mềm đồ họa Inkscape, để xuất bản (export) sản phẩm thiết kế sang định dạng tệp đồ họa điểm ảnh PNG, ta chọn lệnh nào sau đây?",
+    "options": [
+      "File / Export PNG Image",
+      "File / Save As",
+      "Objects / Export PNG Image",
+      "File / Import"
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Xuất ảnh", "NB"]
+  },
+  {
+    "id": "q_cs_04_26",
+    "topicId": "topic_cs_04",
+    "subTopic": "Bài 15: Hoàn thiện hình ảnh đồ họa",
+    "stem": "Câu 2 ( 4.15.NB). Trong phần mềm đồ họa Inkscape, khi sử dụng hộp thoại Export PNG Image (Xuất ảnh PNG), để chỉ xuất khẩu (Export) duy nhất các đối tượng đang được chọn trên bản vẽ, ta chọn khu vực (tab) nào sau đây?",
+    "options": [
+      "Selection (Vùng chọn).",
+      "Page (Trang).",
+      "Drawing (Bản vẽ).",
+      "Custom (Tùy chỉnh)."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Xuất ảnh", "NB"]
+  },
+  {
+    "id": "q_cs_04_27",
+    "topicId": "topic_cs_04",
+    "subTopic": "Bài 15: Hoàn thiện hình ảnh đồ họa",
+    "stem": "Câu 3 ( 4.15.NB). Trong phần mềm đồ họa Inkscape, khi người dùng muốn xuất khẩu (Export) toàn bộ bản thiết kế đã hoàn thiện và căn chỉnh theo khổ giấy định sẵn, vùng xuất ảnh (Export Area) thường được sử dụng nhất là vùng nào?",
+    "options": [
+      "Page (Trang).",
+      "Selection (Vùng chọn).",
+      "Drawing (Bản vẽ).",
+      "Custom (Tùy chỉnh)."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Xuất ảnh", "NB"]
+  },
+  {
+    "id": "q_cs_04_28",
+    "topicId": "topic_cs_04",
+    "subTopic": "Bài 15: Hoàn thiện hình ảnh đồ họa",
+    "stem": "Câu 4 ( 4.15.TH). Trong hộp thoại Xuất ảnh PNG (Export PNG Image) của Inkscape, để thay đổi kích thước vật lý (Pixel dimensions) và chất lượng (độ phân giải) của ảnh xuất ra, ta cần thay đổi giá trị số trong phần nào?",
+    "options": [
+      "Image size (Kích thước ảnh) và Độ phân giải (DPI).",
+      "Export area (Khu vực xuất).",
+      "Font size (Cỡ chữ).",
+      "Fill (Tô màu)."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Medium",
+    "tags": ["Thông số xuất ảnh", "TH"]
+  },
+  {
+    "id": "q_cs_04_29",
+    "topicId": "topic_cs_04",
+    "subTopic": "Bài 15: Hoàn thiện hình ảnh đồ họa",
+    "stem": "Câu 5 ( 4.15.TH). Trong hộp thoại Xuất ảnh PNG (Export PNG Image) của Inkscape, khu vực nào cho phép người dùng nhập tên tệp và chọn đường dẫn (thư mục) để lưu sản phẩm hoàn thiện?",
+    "options": [
+      "Filename (Tên tệp).",
+      "Image size (Kích thước ảnh).",
+      "Export area (Khu vực xuất).",
+      "Export (Nút Xuất)."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Medium",
+    "tags": ["Thông số xuất ảnh", "TH"]
+  },
+  {
+    "id": "q_cs_04_30",
+    "topicId": "topic_cs_04",
+    "subTopic": "Bài 15: Hoàn thiện hình ảnh đồ họa",
+    "stem": "Câu 6 (4.15.TH): Hãy chọn phát biểu SAI trong các phát biểu sau đây về phần mềm đồ họa Inkscape:",
+    "options": [
+      "Khi xuất hình ảnh ra tệp PNG, tất cả các hình ảnh trong vùng làm việc sẽ được xuất.",
+      "Inkscape có thể tạo ra các đối tượng văn bản như tiêu đề, chú thích.",
+      "Ta có thể tinh chỉnh đối tượng đường (Path) dựa vào các điểm neo (nodes) và các điểm, đường chỉ hướng (handles).",
+      "Đường cong trong đồ họa vector thường được biểu diễn bởi một chuỗi các đoạn cong ghép với nhau."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Medium",
+    "tags": ["Kiến thức tổng hợp", "TH"]
+  },
+
+
+    // =================================================================
+  // Topic 5: Lập trình Python
+  // =================================================================
+
+  {
+    "id": "q_cs_05_01",
+    "topicId": "topic_cs_05",
+    "subTopic": "Bài 16: Ngôn ngữ lập trình bậc cao và Python",
+    "stem": "Câu 1 (5.16.NB): Chọn phát biểu ĐÚNG về khái niệm Ngôn ngữ lập trình (Programming Language):",
+    "options": [
+      "Là ngôn ngữ dùng để viết các chương trình máy tính (Computer Programs).",
+      "Là ngôn ngữ biểu diễn thuật toán dưới dạng dễ hiểu.",
+      "Là ngôn ngữ máy tính (Machine Language).",
+      "Là ngôn ngữ dùng để thực hiện các giao tiếp giữa người và máy tính."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Khái niệm", "NB"]
+  },
+  {
+    "id": "q_cs_05_02",
+    "topicId": "topic_cs_05",
+    "subTopic": "Bài 16: Ngôn ngữ lập trình bậc cao và Python",
+    "stem": "Câu 2 (5.16.NB). Chọn phát biểu SAI về Ngôn ngữ máy (Machine Language):",
+    "options": [
+      "Các câu lệnh được viết gần với ngôn ngữ tự nhiên của con người.",
+      "Các lệnh được viết ở dạng mã nhị phân (dãy các số 0 và 1).",
+      "Là ngôn ngữ duy nhất mà máy tính có thể hiểu và xử lý trực tiếp.",
+      "Không cần phải có chương trình dịch (biên dịch hay thông dịch) sang ngôn ngữ máy."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Ngôn ngữ máy", "NB"]
+  },
+  {
+    "id": "q_cs_05_03",
+    "topicId": "topic_cs_05",
+    "subTopic": "Bài 16: Ngôn ngữ lập trình bậc cao và Python",
+    "stem": "Câu 3 (5.16.NB). Phát biểu nào sau đây là ĐÚNG về ngôn ngữ lập trình Python?",
+    "options": [
+      "Là ngôn ngữ lập trình bậc cao có cú pháp đơn giản, dễ sử dụng, phổ biến trong nghiên cứu và giáo dục.",
+      "Là ngôn ngữ duy nhất máy tính hiểu và xử lý được.",
+      "Sử dụng một số từ viết tắt không thuận tiện cho việc viết hoặc hiểu chương trình.",
+      "Là ngôn ngữ dùng để thực hiện các giao tiếp giữa người và máy tính."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Python", "NB"]
+  },
+  {
+    "id": "q_cs_05_04",
+    "topicId": "topic_cs_05",
+    "subTopic": "Bài 16: Ngôn ngữ lập trình bậc cao và Python",
+    "stem": "Câu 4 (5.16.NB). Chọn phát biểu ĐÚNG về chức năng của Chương trình dịch?",
+    "options": [
+      "Chương trình dịch là phần mềm để dịch các chương trình máy tính viết bằng ngôn ngữ bậc cao sang ngôn ngữ máy.",
+      "Chương trình dịch là phần mềm chủ yếu dùng để phát hiện lỗi của các chương trình máy tính.",
+      "Chương trình dịch là phần mềm để phát hiện lỗi và thực hiện các chương trình máy tính do người sử dụng viết ra",
+      "Chương trình dịch là phần mềm để dịch các chương trình máy tính sang ngôn ngữ máy."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Chương trình dịch", "NB"]
+  },
+  {
+    "id": "q_cs_05_05",
+    "topicId": "topic_cs_05",
+    "subTopic": "Bài 16: Ngôn ngữ lập trình bậc cao và Python",
+    "stem": "Câu 5 (5.16.NB). Trong môi trường lập trình Python có các chế độ làm việc nào?",
+    "options": [
+      "Chế độ gõ lệnh trực tiếp và chế độ soạn thảo.",
+      "Chế độ gõ lệnh gián tiếp và chế độ soạn thảo.",
+      "Chế độ gõ lệnh trực tiếp và chế độ gõ lệnh gián tiếp.",
+      "Chế độ gõ lệnh gián tiếp và chế độ soạn văn bản."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Chế độ làm việc", "NB"]
+  },
+  {
+    "id": "q_cs_05_06",
+    "topicId": "topic_cs_05",
+    "subTopic": "Bài 16: Ngôn ngữ lập trình bậc cao và Python",
+    "stem": "Câu 6 (5.16.NB). Phần mở rộng (đuôi tệp) nào sau đây là đúng và được sử dụng phổ biến nhất cho tệp chứa mã nguồn của ngôn ngữ lập trình Python?",
+    "options": [
+      ".py",
+      ".ppt",
+      ".cpp",
+      "pyt"
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Định dạng tệp", "NB"]
+  },
+  {
+    "id": "q_cs_05_07",
+    "topicId": "topic_cs_05",
+    "subTopic": "Bài 16: Ngôn ngữ lập trình bậc cao và Python",
+    "stem": "Câu 7 (5.16.NB). Phương án nào sau đây KHÔNG THỂ (hoặc không phù hợp) thực hiện soạn thảo và chạy chương trình Python một cách hiệu quả?",
+    "options": [
+      "Sử dụng phần mềm soạn thảo văn bản như Microsoft Word hoặc Notepad (để soạn thảo mã nguồn).",
+      "Sử dụng các phần mềm môi trường phát triển tích hợp (IDE) chuyên dụng cho Python như PyCharm, Thonny.",
+      "Sử dụng các ứng dụng lập trình online dựa trên nền tảng đám mây như Google Colab, Online GDB.",
+      "Sử dụng các công cụ lập trình hỗ trợ mạnh mẽ như Jupyter Notebook, Visual Studio Code (VS Code)."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Công cụ lập trình", "NB"]
+  },
+  {
+    "id": "q_cs_05_08",
+    "topicId": "topic_cs_05",
+    "subTopic": "Bài 16: Ngôn ngữ lập trình bậc cao và Python",
+    "stem": "Câu 8 (5.16.NB). Trong ngôn ngữ lập trình Python, kí hiệu nào sau đây được sử dụng để bắt đầu một dòng chú thích lệnh (Comment)?",
+    "options": [
+      "Dấu thăng #",
+      "Dấu sao *",
+      "Dấu ngoặc ( ).",
+      "Dấu ngoặc [ ]"
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Cú pháp", "NB"]
+  },
+  {
+    "id": "q_cs_05_09",
+    "topicId": "topic_cs_05",
+    "subTopic": "Bài 16: Ngôn ngữ lập trình bậc cao và Python",
+    "stem": "Câu 9 (5.16.TH). Giá trị của biểu thức Python sau sẽ là bao nhiêu khi thực hiện trong chế độ tương tác (Shell)? >>> 3 + * 5",
+    "options": [
+      "Chương trình báo lỗi (Syntax Error)",
+      "8",
+      "15",
+      "8 và 15"
+    ],
+    "answerIndices": [0],
+    "difficulty": "Medium",
+    "tags": ["Cú pháp", "TH"]
+  },
+  {
+    "id": "q_cs_05_10",
+    "topicId": "topic_cs_05",
+    "subTopic": "Bài 16: Ngôn ngữ lập trình bậc cao và Python",
+    "stem": "Câu 10 (5.16.TH). Khi thực hiện câu lệnh Python sau để in ra một chuỗi kí tự trong chế độ tương tác (Shell), kết quả trên màn hình là gì?\n>>> \"Bạn là học sinh, tên bạn là \"LAN\" \"",
+    "options": [
+      "Chương trình báo lỗi (Syntax Error)",
+      "'Bạn là học sinh, tên bạn là \"LAN\" '",
+      "Bạn là học sinh, tên bạn là LAN",
+      "\"Bạn là học sinh, tên bạn là 'LAN' \""
+    ],
+    "answerIndices": [0],
+    "difficulty": "Medium",
+    "tags": ["Xâu kí tự", "TH"]
+  },
+  {
+    "id": "q_cs_05_11",
+    "topicId": "topic_cs_05",
+    "subTopic": "Bài 16: Ngôn ngữ lập trình bậc cao và Python",
+    "stem": "Câu 11. (5.16.VD). Để in ra màn hình dòng chữ Trường THPT Bình Minh, câu lệnh Python nào sau đây là đúng về mặt cú pháp và chức năng?",
+    "options": [
+      "print ( ″ Trường THPT Bình Minh ″ )",
+      "print ( ″ Trường THPT Bình Minh ′)",
+      "Print (″ Trường THPT Bình Minh ″)",
+      "print ( Trường THPT Bình Minh )"
+    ],
+    "answerIndices": [0],
+    "difficulty": "Hard",
+    "tags": ["Lệnh print", "VD"]
+  },
+  {
+    "id": "q_cs_05_12",
+    "topicId": "topic_cs_05",
+    "subTopic": "Bài 16: Ngôn ngữ lập trình bậc cao và Python",
+    "stem": "Câu 12 (5.16.VD). Khi thực hiện câu lệnh Python sau trong chế độ tương tác (Shell) sẽ in ra kết quả trên màn hình là gì?\n>>> print(10, 3.14, \"pi\")",
+    "options": [
+      "10 3.14 pi",
+      "10, 3.14, \"pi\"",
+      "10 3,14 \"pi\"",
+      "103.14pi."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Hard",
+    "tags": ["Lệnh print", "VD"]
+  },
+  {
+    "id": "q_cs_05_13",
+    "topicId": "topic_cs_05",
+    "subTopic": "Bài 16: Ngôn ngữ lập trình bậc cao và Python",
+    "stem": "Câu 13 (5.16.VD). Hãy xác định giá trị trả về (kết quả) khi thực hiện câu lệnh Python sau:\n>>> 4 + 12 // 5",
+    "options": [
+      "6",
+      "3.2",
+      "7",
+      "6.4"
+    ],
+    "answerIndices": [0],
+    "difficulty": "Hard",
+    "tags": ["Phép toán số học", "VD"]
+  },
+  {
+    "id": "q_cs_05_14",
+    "topicId": "topic_cs_05",
+    "subTopic": "Bài 16: Ngôn ngữ lập trình bậc cao và Python",
+    "stem": "Câu 14 (5.16.VD). Khi thực hiện câu lệnh Python sau kết quả in trên màn hình là gì?\n>>> print (\"3 + 7 =\", 3+7)",
+    "options": [
+      "3 + 7 = 10",
+      "10",
+      "\"3 + 7 =\", 3+7",
+      "3+7"
+    ],
+    "answerIndices": [0],
+    "difficulty": "Hard",
+    "tags": ["Lệnh print", "VD"]
+  },
+  {
+    "id": "q_cs_05_15",
+    "topicId": "topic_cs_05",
+    "subTopic": "Bài 17: Biến và lệnh gán",
+    "stem": "Câu 1 (5.17.NB). Hãy chỉ ra quy tắc ĐÚNG khi đặt tên biến (Variable Naming) trong ngôn ngữ lập trình Python?",
+    "options": [
+      "Tên biến chỉ gồm các chữ cái tiếng Anh, các chữ số từ 0 đến 9 và kí tự gạch dưới “_”",
+      "Tên biến không bắt đầu bằng chữ số, không phân biệt chữ hoa chữ thường",
+      "Tên biến có thể bắt đầu bằng một chữ số, kí tự gạch dưới",
+      "Tên biến có thể có các kí hiệu @, #, %, &,…"
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Đặt tên biến", "NB"]
+  },
+  {
+    "id": "q_cs_05_16",
+    "topicId": "topic_cs_05",
+    "subTopic": "Bài 17: Biến và lệnh gán",
+    "stem": "Câu 2 ( 5.17.NB). Hãy chỉ ra tên biến ĐÚNG (hợp lệ) theo quy tắc đặt tên biến trong ngôn ngữ lập trình Python",
+    "options": [
+      "name",
+      "True",
+      "123abc",
+      "if"
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Đặt tên biến", "NB"]
+  },
+  {
+    "id": "q_cs_05_17",
+    "topicId": "topic_cs_05",
+    "subTopic": "Bài 17: Biến và lệnh gán",
+    "stem": "Câu 3 (5.17.NB). Tên biến nào sau đây là hợp lệ theo quy tắc đặt tên biến trong Python?",
+    "options": [
+      "abc_123",
+      "123_abc",
+      "abc-123",
+      "123 abc"
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Đặt tên biến", "NB"]
+  },
+  {
+    "id": "q_cs_05_18",
+    "topicId": "topic_cs_05",
+    "subTopic": "Bài 17: Biến và lệnh gán",
+    "stem": "Câu 4 (5.17.TH). Trong Python, câu lệnh nào sau đây để thực hiện gán giá trị số nguyên 10 cho biến có tên là number?",
+    "options": [
+      "number = 10",
+      "10 = number",
+      "Number = = 10",
+      "number = \"10\""
+    ],
+    "answerIndices": [0],
+    "difficulty": "Medium",
+    "tags": ["Lệnh gán", "TH"]
+  },
+  {
+    "id": "q_cs_05_19",
+    "topicId": "topic_cs_05",
+    "subTopic": "Bài 17: Biến và lệnh gán",
+    "stem": "Câu 5 (5.17.TH). Câu lệnh nào sau đây để thực hiện gán một xâu kí tự (String) cho biến xau_ky_tu là SAI về mặt cú pháp trong ngôn ngữ lập trình Python?",
+    "options": [
+      "xau_ky_tu = ' Hello Python\"",
+      "xau_ky_tu = \" Hello Python\"",
+      "xau_ky_tu = ' Hello \"Python\" '",
+      "xau_ky_tu = \"\"\"Hello Python\"\"\""
+    ],
+    "answerIndices": [0],
+    "difficulty": "Medium",
+    "tags": ["Xâu kí tự", "TH"]
+  },
+  {
+    "id": "q_cs_05_20",
+    "topicId": "topic_cs_05",
+    "subTopic": "Bài 17: Biến và lệnh gán",
+    "stem": "Câu 6 (5.17.TH). Cho hai xâu kí tự x = \"TINHOC\" và y = \"10\". Phương án nào sau đây để ghép xâu y vào sau xâu x?",
+    "options": [
+      "x + y",
+      "y + x",
+      "x * y",
+      "y * x"
+    ],
+    "answerIndices": [0],
+    "difficulty": "Medium",
+    "tags": ["Xâu kí tự", "TH"]
+  },
+  {
+    "id": "q_cs_05_21",
+    "topicId": "topic_cs_05",
+    "subTopic": "Bài 17: Biến và lệnh gán",
+    "stem": "Câu 7 (5.17.VD). Hãy xác định giá trị của biểu thức khi thực hiện câu lệnh Python sau: >>> (12 – 15//2) **2 - 1",
+    "options": [
+      "24",
+      "19.25",
+      "9",
+      "0"
+    ],
+    "answerIndices": [0],
+    "difficulty": "Hard",
+    "tags": ["Phép toán số học", "VD"]
+  },
+  {
+    "id": "q_cs_05_22",
+    "topicId": "topic_cs_05",
+    "subTopic": "Bài 17: Biến và lệnh gán",
+    "stem": "Câu 8 (5.17.VD). Hãy xác định giá trị của biểu thức khi thực hiện câu lệnh Python sau: >>> (2 + 5**2) * (10 // 3 - 5 / 2)",
+    "options": [
+      "13.5",
+      "66.5",
+      "26",
+      "73.5"
+    ],
+    "answerIndices": [1],
+    "difficulty": "Hard",
+    "tags": ["Phép toán số học", "VD"]
+  },
+  {
+    "id": "q_cs_05_23",
+    "topicId": "topic_cs_05",
+    "subTopic": "Bài 17: Biến và lệnh gán",
+    "stem": "Câu 10 (5.17.VD): Để giải phương trình bậc nhất ax + b = 0 (a khác 0) , câu lệnh Python in giá trị nghiệm x nào sau đây là ĐÚNG? (biết rằng các biến a, b đã được gán giá trị a , b = 2, 4).",
+    "options": [
+      "print (\"nghiem x =\", -b/a).",
+      "Print (\"nghiem x =\", -b/a).",
+      "print(nghiem x = -b/a).",
+      "print(\"nghiem x = -b/a\")."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Hard",
+    "tags": ["Giải quyết vấn đề", "VD"]
+  },
+  {
+    "id": "q_cs_05_24",
+    "topicId": "topic_cs_05",
+    "subTopic": "Bài 17: Biến và lệnh gán",
+    "stem": "Câu 11 (5.17.VD): Để giải phương trình bậc nhất ax + b = 0 (a khác 0), biết rằng các biến a, b đã được gán giá trị a , b = 2, 4. Giá trị của nghiệm x bằng bao nhiêu khi thực hiện chương trình?",
+    "options": [
+      "x = -2.0",
+      "x = 2.0",
+      "x = 0.5",
+      "x = -0.5"
+    ],
+    "answerIndices": [0],
+    "difficulty": "Hard",
+    "tags": ["Giải quyết vấn đề", "VD"]
+  },
+  {
+    "id": "q_cs_05_25",
+    "topicId": "topic_cs_05",
+    "subTopic": "Bài 17: Biến và lệnh gán",
+    "stem": "Câu 12 (5.17.VD): Viết câu lệnh Python để tính toán và in ra giá trị độ dài đường chéo d của một hình chữ nhật có chiều dài a và chiều rộng b (biết rằng các biến a, b đã được gán giá trị a = b = 2).",
+    "options": [
+      "print ((a*a + b*b)**0.5)",
+      "print ((a+b)*2)**0.5)",
+      "print (a*a + b*b)",
+      "print (a*a + b*b**0.5)"
+    ],
+    "answerIndices": [0],
+    "difficulty": "Hard",
+    "tags": ["Giải quyết vấn đề", "VD"]
+  },
+  {
+    "id": "q_cs_05_26",
+    "topicId": "topic_cs_05",
+    "subTopic": "Bài 18: Các lệnh vào ra",
+    "stem": "Câu 1(5.18.NB). Trong ngôn ngữ lập trình Python, lệnh (hàm) nào sau đây có chức năng dùng để đưa dữ liệu vào (nhập dữ liệu) từ bàn phím trong quá trình chương trình đang chạy?",
+    "options": [
+      "Lệnh input().",
+      "Lệnh print().",
+      "Lệnh type().",
+      "Lệnh gán."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Vào ra dữ liệu", "NB"]
+  },
+  {
+    "id": "q_cs_05_27",
+    "topicId": "topic_cs_05",
+    "subTopic": "Bài 18: Các lệnh vào ra",
+    "stem": "Câu 2 (5.18.NB). Trong ngôn ngữ lập trình Python, lệnh (hàm) nào sau đây có chức năng dùng để đưa dữ liệu ra (hiển thị dữ liệu, thông báo, kết quả tính toán) màn hình chuẩn?",
+    "options": [
+      "Lệnh print().",
+      "Lệnh input().",
+      "Lệnh type().",
+      "Lệnh gán."
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Vào ra dữ liệu", "NB"]
+  },
+  {
+    "id": "q_cs_05_28",
+    "topicId": "topic_cs_05",
+    "subTopic": "Bài 18: Các lệnh vào ra",
+    "stem": "Câu 3 (5.18.NB). Khi sử dụng hàm input() để nhập dữ liệu từ bàn phím, kiểu dữ liệu mặc định của giá trị được hàm này trả về là gì?",
+    "options": [
+      "Xâu kí tự (str)",
+      "Boolean (bool)",
+      "Số nguyên (int)",
+      "Số thực (float)"
+    ],
+    "answerIndices": [0],
+    "difficulty": "Easy",
+    "tags": ["Vào ra dữ liệu", "NB"]
+  },
+  {
+    "id": "q_cs_05_29",
+    "topicId": "topic_cs_05",
+    "subTopic": "Bài 18: Các lệnh vào ra",
+    "stem": "Câu 4 (5.18.TH) Để nhập một giá trị từ bàn phím và đảm bảo rằng giá trị đó được lưu vào biến tuoi dưới dạng số nguyên (int), câu lệnh nào sau đây là đúng?",
+    "options": [
+      "tuoi = input()",
+      "tuoi = str(input())",
+      "tuoi = int(input())",
+      "tuoi = float(input())"
+    ],
+    "answerIndices": [2],
+    "difficulty": "Medium",
+    "tags": ["Ép kiểu", "TH"]
+  },
+  {
+    "id": "q_cs_05_30",
+    "topicId": "topic_cs_05",
+    "subTopic": "Bài 18: Các lệnh vào ra",
+    "stem": "Câu 5(5.18.TH) Hãy xác định kết quả trả về khi thực hiện chuỗi câu lệnh Python sau: >>> x = (1==2) >>> type(x)",
+    "options": [
+      "<class 'bool'>",
+      "<class 'float'>",
+      "<class 'str'>",
+      "<class 'int'>"
+    ],
+    "answerIndices": [0],
+    "difficulty": "Medium",
+    "tags": ["Kiểu dữ liệu", "TH"]
+  },
+  {
+    "id": "q_cs_05_31",
+    "topicId": "topic_cs_05",
+    "subTopic": "Bài 18: Các lệnh vào ra",
+    "stem": "Câu 6 (5.18.TH) Hãy xác định kết quả được in ra màn hình khi thực hiện câu lệnh sau: >>> tong = 30 >>> print(\"Tong cua hai so la: \", tong)",
+    "options": [
+      "Tong cua hai so la: 30",
+      "Tong cua hai so la: tong",
+      "Tong cua hai so la: , 30",
+      "Tong cua hai so la: , tong"
+    ],
+    "answerIndices": [0],
+    "difficulty": "Medium",
+    "tags": ["Vào ra dữ liệu", "TH"]
+  },
+  {
+    "id": "q_cs_05_32",
+    "topicId": "topic_cs_05",
+    "subTopic": "Bài 18: Các lệnh vào ra",
+    "stem": "Câu 7 (5.18.VD) Hãy xác định kết quả in ra màn hình khi thực hiện các lệnh sau trong Python: >>> x = int(12.6) >>> y = 10 >>> print(x+y)",
+    "options": [
+      "22",
+      "22.6",
+      "x+y",
+      "Thông báo lỗi"
+    ],
+    "answerIndices": [0],
+    "difficulty": "Hard",
+    "tags": ["Ép kiểu", "VD"]
+  },
+  {
+    "id": "q_cs_05_33",
+    "topicId": "topic_cs_05",
+    "subTopic": "Bài 18: Các lệnh vào ra",
+    "stem": "Câu 8(5.18.VD) Hãy xác định kết quả in ra màn hình khi thực hiện đoạn chương trình Python sau: >>> x = 24 >>> y = int(2.0) >>> print(x/y)",
+    "options": [
+      "12.0",
+      "12",
+      "48.0",
+      "48"
+    ],
+    "answerIndices": [0],
+    "difficulty": "Hard",
+    "tags": ["Phép toán số học", "VD"]
+  }
+
 
 ]
