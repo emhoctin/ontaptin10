@@ -1640,7 +1640,7 @@ export const MOCK_CS_QUESTIONS: Question[] = [
       "26",
       "73.5"
     ],
-    "answerIndices": [1],
+    "answerIndices": [0],
     "difficulty": "Hard",
     "tags": ["Phép toán số học", "VD"]
   },
